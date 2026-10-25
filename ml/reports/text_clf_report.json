@@ -1,0 +1,187 @@
+{
+ "train_size": 3106,
+ "synthetic_test_unseen_phrasings": {
+  "n": 1000,
+  "problem_accuracy": 0.628,
+  "problem_macro_f1": 0.5877,
+  "skill_hit_rate": 0.695,
+  "category_accuracy": 0.886,
+  "category_macro_f1": 0.8863,
+  "top_confusions": [
+   {
+    "true": "washer_not_spinning_noise",
+    "pred": "washer_not_draining",
+    "count": 15
+   },
+   {
+    "true": "sink_installation",
+    "pred": "clogged_drain",
+    "count": 14
+   },
+   {
+    "true": "check_engine_diagnostics",
+    "pred": "wont_start",
+    "count": 12
+   },
+   {
+    "true": "wall_painting_job",
+    "pred": "full_renovation",
+    "count": 12
+   },
+   {
+    "true": "water_damaged_device",
+    "pred": "phone_cracked_screen",
+    "count": 11
+   }
+  ]
+ },
+ "gold_independent": {
+  "n": 80,
+  "problem_accuracy": 0.95,
+  "problem_macro_f1": 0.9439,
+  "skill_hit_rate": 0.95,
+  "category_accuracy": 0.9875,
+  "category_macro_f1": 0.9875,
+  "top_confusions": [
+   {
+    "true": "pipe_leak",
+    "pred": "fridge_leaking_noisy",
+    "count": 1
+   },
+   {
+    "true": "car_lockout",
+    "pred": "locked_out",
+    "count": 1
+   },
+   {
+    "true": "tv_no_picture",
+    "pred": "laptop_wont_boot",
+    "count": 1
+   },
+   {
+    "true": "ac_installation",
+    "pred": "ac_water_leak",
+    "count": 1
+   }
+  ]
+ },
+ "gold_by_style": {
+  "informal": 1.0,
+  "no_diacritics": 1.0,
+  "russian": 0.95,
+  "short": 1.0
+ },
+ "confidence_clear_gold_median": 0.886,
+ "confidence_vague_median": 0.171,
+ "risk_coverage_gold": [
+  {
+   "threshold": 0.3,
+   "coverage": 0.938,
+   "accuracy_on_kept": 1.0
+  },
+  {
+   "threshold": 0.4,
+   "coverage": 0.938,
+   "accuracy_on_kept": 1.0
+  },
+  {
+   "threshold": 0.5,
+   "coverage": 0.887,
+   "accuracy_on_kept": 1.0
+  },
+  {
+   "threshold": 0.6,
+   "coverage": 0.812,
+   "accuracy_on_kept": 1.0
+  },
+  {
+   "threshold": 0.7,
+   "coverage": 0.7,
+   "accuracy_on_kept": 1.0
+  },
+  {
+   "threshold": 0.8,
+   "coverage": 0.6,
+   "accuracy_on_kept": 1.0
+  },
+  {
+   "threshold": 0.9,
+   "coverage": 0.487,
+   "accuracy_on_kept": 1.0
+  }
+ ],
+ "vague_share_above_threshold": {
+  "0.5": 0.003,
+  "0.6": 0.003,
+  "0.7": 0.0,
+  "0.8": 0.0
+ },
+ "risk_coverage_synthetic_test": [
+  {
+   "threshold": 0.3,
+   "coverage": 0.611,
+   "accuracy_on_kept": 0.987
+  },
+  {
+   "threshold": 0.4,
+   "coverage": 0.447,
+   "accuracy_on_kept": 1.0
+  },
+  {
+   "threshold": 0.5,
+   "coverage": 0.327,
+   "accuracy_on_kept": 1.0
+  },
+  {
+   "threshold": 0.6,
+   "coverage": 0.23,
+   "accuracy_on_kept": 1.0
+  },
+  {
+   "threshold": 0.7,
+   "coverage": 0.128,
+   "accuracy_on_kept": 1.0
+  },
+  {
+   "threshold": 0.8,
+   "coverage": 0.081,
+   "accuracy_on_kept": 1.0
+  },
+  {
+   "threshold": 0.9,
+   "coverage": 0.027,
+   "accuracy_on_kept": 1.0
+  }
+ ],
+ "learning_curve_unseen_phrasings": [
+  {
+   "az_phrasings_per_problem": 1,
+   "train_size": 1024,
+   "problem_acc": 0.578,
+   "category_acc": 0.82,
+   "skill_hit_rate": 0.625
+  },
+  {
+   "az_phrasings_per_problem": 2,
+   "train_size": 1741,
+   "problem_acc": 0.619,
+   "category_acc": 0.859,
+   "skill_hit_rate": 0.687
+  },
+  {
+   "az_phrasings_per_problem": 3,
+   "train_size": 2422,
+   "problem_acc": 0.616,
+   "category_acc": 0.88,
+   "skill_hit_rate": 0.685
+  },
+  {
+   "az_phrasings_per_problem": 4,
+   "train_size": 3106,
+   "problem_acc": 0.628,
+   "category_acc": 0.886,
+   "skill_hit_rate": 0.695
+  }
+ ],
+ "ablation_no_diacritic_folding_gold_category_acc": 0.9875
+}
