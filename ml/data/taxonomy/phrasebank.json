@@ -1,0 +1,2053 @@
+{
+ "version": 1,
+ "bundles": {
+  "faucet_leak": {
+   "az": [
+    [
+     "Mətbəx kranı su axıdır",
+     "Mətbəxdəki kranın altından davamlı su damır, təmir və ya dəyişmək lazımdır."
+    ],
+    [
+     "Kran sızdırır",
+     "Vannadakı kran bağlananda belə su axmağa davam edir."
+    ],
+    [
+     "Kran damır",
+     "Kranın dibindən su sızır, döşəmə islanır."
+    ],
+    [
+     "Qarışdırıcı problemi",
+     "Qarışdırıcı kranın qolu boş olub və hər tərəfə su sıçrayır."
+    ],
+    [
+     "Kranın contası",
+     "Kranın contası köhnəlib deyəsən, damcı-damcı su axır, baxmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Течёт кран",
+     "Подтекает кран на кухне, нужно заменить прокладку или сам смеситель."
+    ],
+    [
+     "Капает смеситель",
+     "Из смесителя в ванной постоянно капает вода, помогите устранить."
+    ]
+   ]
+  },
+  "clogged_drain": {
+   "az": [
+    [
+     "Çanaq tutulub",
+     "Mətbəx çanağı tutulub, su getmir və pis iy gəlir."
+    ],
+    [
+     "Kanalizasiya tutulub",
+     "Vannanın kanalizasiyası tıxanıb, su yığılıb qalır."
+    ],
+    [
+     "Boru tıxanıb",
+     "Yuyunma çanağında su çox yavaş çəkilir, deyəsən boru tıxanıb."
+    ],
+    [
+     "Drenaj problemi",
+     "Duşun altında su yığılır və aşağı getmir, təmizləmək lazımdır."
+    ],
+    [
+     "Tutulmuş çanaq",
+     "Qabları yuyan çanaqdan su ləng axır, yağ tutub deyəsən."
+    ]
+   ],
+   "ru": [
+    [
+     "Засор в раковине",
+     "Засорилась раковина на кухне, вода не уходит, нужна прочистка."
+    ],
+    [
+     "Засор канализации",
+     "В ванной не уходит вода, нужен сантехник прочистить трубы."
+    ]
+   ]
+  },
+  "pipe_leak": {
+   "az": [
+    [
+     "Boru partlayıb",
+     "Vannada divarın içindəki boru partlayıb, hər yer su olub."
+    ],
+    [
+     "Boru sızdırır",
+     "Çanağın altındakı borunun birləşməsindən su sızır."
+    ],
+    [
+     "Su borusu zədələnib",
+     "Tavandan su damır, yuxarı mərtəbədən boru sızdırır deyəsən."
+    ],
+    [
+     "Su borusu çatlayıb",
+     "Soyuq su borusu çatlayıb, suyu bağlamışam, usta lazımdır."
+    ],
+    [
+     "Boruda sızma var",
+     "Divarın dibində nəmlik və su ləkəsi var, boru sızdırır."
+    ]
+   ],
+   "ru": [
+    [
+     "Прорвало трубу",
+     "Прорвало трубу в ванной, вода течёт, нужен мастер."
+    ],
+    [
+     "Течь трубы",
+     "Под раковиной течёт труба в месте соединения."
+    ]
+   ]
+  },
+  "toilet_problem": {
+   "az": [
+    [
+     "Unitaz problemi",
+     "Unitazın su çəni daim su yığır və dayanmır."
+    ],
+    [
+     "Unitaz tutulub",
+     "Unitaz tıxanıb, su qalxır və getmir."
+    ],
+    [
+     "Unitaz sızdırır",
+     "Unitazın dibindən su sızır, döşəmə islanır."
+    ],
+    [
+     "Unitazın düyməsi",
+     "Unitazın yuyulma düyməsi işləmir, su çəkilmir."
+    ],
+    [
+     "Çəndə problem",
+     "Unitazın çənində su axır səs gəlir, bağlanmır."
+    ]
+   ],
+   "ru": [
+    [
+     "Течёт унитаз",
+     "Бачок унитаза постоянно набирает воду и шумит."
+    ],
+    [
+     "Засорился унитаз",
+     "Унитаз засорился, вода поднимается, нужна помощь."
+    ]
+   ]
+  },
+  "water_heater_issue": {
+   "az": [
+    [
+     "Su qızdırıcısı işləmir",
+     "Boyler suyu qızdırmır, işıq yanır amma su soyuqdur."
+    ],
+    [
+     "Boyler quraşdırmaq",
+     "Yeni 50 litrlik boyleri divara asıb qoşmaq lazımdır."
+    ],
+    [
+     "Kalonka xarab olub",
+     "Su qızdırıcısı yanmır, su ısınmır."
+    ],
+    [
+     "Boylerdən su axır",
+     "Boylerin altından su damır, dəyişmək yoxsa təmir etmək lazım olduğunu bilmirəm."
+    ],
+    [
+     "Boyler tez soyuyur",
+     "Boyler suyu çətinliklə qızdırır və tez soyuyur, baxılmalıdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Не греет бойлер",
+     "Бойлер не нагревает воду, индикатор горит."
+    ],
+    [
+     "Установка бойлера",
+     "Нужно установить новый водонагреватель на 80 литров."
+    ]
+   ]
+  },
+  "low_water_pressure": {
+   "az": [
+    [
+     "Suyun təzyiqi zəifdir",
+     "Kranlardan su çox zəif gəlir, təzyiq çatmır."
+    ],
+    [
+     "Su zəif axır",
+     "Duşdan su zəif axır, təzyiq yoxdur."
+    ],
+    [
+     "Təzyiq problemi",
+     "Mətbəxdə su yavaş gəlir, filtr tutulub ola bilər."
+    ],
+    [
+     "İsti suyun təzyiqi",
+     "İsti suyun təzyiqi aşağıdır, soyuq su normaldır."
+    ],
+    [
+     "Suyun təzyiqi düşüb",
+     "Bütün mənzildə suyun təzyiqi aşağı düşüb, nasos lazım ola bilər."
+    ]
+   ],
+   "ru": [
+    [
+     "Слабый напор воды",
+     "Очень слабый напор воды в кране, нужно проверить."
+    ],
+    [
+     "Мало воды в душе",
+     "В душе еле течёт вода, помогите найти причину."
+    ]
+   ]
+  },
+  "sink_installation": {
+   "az": [
+    [
+     "Çanaq quraşdırmaq",
+     "Yeni mətbəx çanağını və qarışdırıcını quraşdırmaq lazımdır."
+    ],
+    [
+     "Qarışdırıcı dəyişmək",
+     "Köhnə qarışdırıcını sökməli və yenisini qoşmalıyam."
+    ],
+    [
+     "Rakovina quraşdırılması",
+     "Vanna otağında yeni rakovina asılıb qoşulmalıdır."
+    ],
+    [
+     "Çanaq dəyişdirilməsi",
+     "Köhnə paslanmış çanağı sökməyə və yenisini qoymağa usta lazımdır."
+    ],
+    [
+     "Yeni çanaq",
+     "Aldığım çanağı qoşub su və kanalizasiyanı birləşdirmək lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Установка раковины",
+     "Нужно установить новую раковину со смесителем на кухне."
+    ],
+    [
+     "Замена смесителя",
+     "Куплен новый смеситель, нужно поставить вместо старого."
+    ]
+   ]
+  },
+  "power_outage": {
+   "az": [
+    [
+     "Mənzildə işıq yoxdur",
+     "Mənzilin bütün otaqlarında işıq getdi, qonşularda var."
+    ],
+    [
+     "İşıq getdi",
+     "Avtomat atıb, qaldırıram yenə düşür, işıq yoxdur."
+    ],
+    [
+     "Elektrik kəsilib",
+     "Yarım mənzilin işığı yoxdur, səbəbini tapmaq lazımdır."
+    ],
+    [
+     "Cərəyan yoxdur",
+     "Heç bir rozetkada cərəyan yoxdur, şitdə bir şey düşüb."
+    ],
+    [
+     "Mənzildə elektrik yoxdur",
+     "Evdə birdən işıq söndü, qonşuda var, bizdə yoxdur."
+    ]
+   ],
+   "ru": [
+    [
+     "Нет света в квартире",
+     "В квартире пропал свет, у соседей есть, автомат выбивает."
+    ],
+    [
+     "Пропало электричество",
+     "Во всей квартире нет электричества, нужен электрик."
+    ]
+   ]
+  },
+  "socket_not_working": {
+   "az": [
+    [
+     "Rozetka işləmir",
+     "Otaqdakı rozetka işləmir, cihazları qoşanda cərəyan gəlmir."
+    ],
+    [
+     "Rozetkadan qığılcım çıxır",
+     "Rozetkaya qoşanda qığılcım çıxır və səs gəlir."
+    ],
+    [
+     "Rozetka dəyişmək",
+     "Qırılmış rozetkanı dəyişdirmək lazımdır, qapağı düşüb."
+    ],
+    [
+     "Rozetka qızır",
+     "Rozetka çox qızır və plastiki əriyib."
+    ],
+    [
+     "Rozetka sıradan çıxıb",
+     "Mətbəxdə rozetka işləmir, içindən qara iz görünür."
+    ]
+   ],
+   "ru": [
+    [
+     "Не работает розетка",
+     "Не работает розетка в спальне, нужно проверить и заменить."
+    ],
+    [
+     "Искрит розетка",
+     "Розетка искрит при включении прибора."
+    ]
+   ]
+  },
+  "light_installation": {
+   "az": [
+    [
+     "Lüstr asmaq",
+     "Yeni lüstri tavana asıb qoşmaq lazımdır."
+    ],
+    [
+     "İşıq armaturu quraşdırmaq",
+     "Mətbəxdə 4 ədəd spot işıq quraşdırmaq lazımdır."
+    ],
+    [
+     "Lampa quraşdırılması",
+     "Otaqda tavan işığını və bra lampalarını qoşmaq lazımdır."
+    ],
+    [
+     "LED lent çəkmək",
+     "Qonaq otağında LED işıqlandırma çəkilməlidir."
+    ],
+    [
+     "Çıraq dəyişmək",
+     "Dəhlizdəki köhnə çıraqları yenisi ilə əvəz etmək istəyirəm."
+    ]
+   ],
+   "ru": [
+    [
+     "Установить люстру",
+     "Нужно повесить и подключить новую люстру в зале."
+    ],
+    [
+     "Монтаж освещения",
+     "Установить точечные светильники на кухне."
+    ]
+   ]
+  },
+  "breaker_trips": {
+   "az": [
+    [
+     "Avtomat tez-tez atır",
+     "Şitdəki avtomat bir neçə saatdan bir düşür."
+    ],
+    [
+     "Şit problemi",
+     "Elektrik şitini yoxlamaq və lazım olsa avtomatları dəyişmək lazımdır."
+    ],
+    [
+     "Qoruyucu atır",
+     "Çaydanı qoşanda avtomat dərhal atır."
+    ],
+    [
+     "Elektrik şiti",
+     "Köhnə şiti yenisi ilə əvəz etmək lazımdır, avtomatlar qızır."
+    ],
+    [
+     "Avtomat düşür",
+     "Paltaryuyanı işə salan kimi avtomat düşür, səbəbi tapılsın."
+    ]
+   ],
+   "ru": [
+    [
+     "Выбивает автомат",
+     "Автомат в щитке постоянно выбивает, нужно найти причину."
+    ],
+    [
+     "Замена щитка",
+     "Нужно заменить электрощиток и автоматы в квартире."
+    ]
+   ]
+  },
+  "wiring_replacement": {
+   "az": [
+    [
+     "Naqillərin dəyişdirilməsi",
+     "Köhnə mənzildə alüminium naqilləri mis naqillə dəyişmək lazımdır."
+    ],
+    [
+     "Elektrik çəkilişi",
+     "Təmirdən sonra bütün otaqlara yeni elektrik xətti çəkmək lazımdır."
+    ],
+    [
+     "Yeni xətt çəkmək",
+     "Mətbəxə əlavə rozetka xətti çəkilməlidir."
+    ],
+    [
+     "Naqil təmiri",
+     "Divarda naqil zədələnib, açıq qalıb, düzəltmək lazımdır."
+    ],
+    [
+     "Elektrik işləri",
+     "Yeni mənzildə sıfırdan elektrik quraşdırmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Замена проводки",
+     "Нужно полностью заменить старую проводку в квартире."
+    ],
+    [
+     "Прокладка кабеля",
+     "Проложить новую линию для розеток на кухне."
+    ]
+   ]
+  },
+  "switch_problem": {
+   "az": [
+    [
+     "Açar işləmir",
+     "Otaqdakı işıq açarı bəzən işləmir."
+    ],
+    [
+     "Açarı dəyişmək",
+     "İşıq açarı qırılıb, yenisini qoymaq lazımdır."
+    ],
+    [
+     "Çıraq açarı",
+     "Dəhlizdə açar basanda səs gəlir və işıq yanıb-sönür."
+    ],
+    [
+     "İkili açar quraşdırmaq",
+     "Tək açarın yerinə ikili açar quraşdırmaq istəyirəm."
+    ],
+    [
+     "Açar xarab olub",
+     "Vanna otağının açarı basılı qalır və işıq yanmır."
+    ]
+   ],
+   "ru": [
+    [
+     "Не работает выключатель",
+     "Не работает выключатель света в комнате."
+    ],
+    [
+     "Замена выключателя",
+     "Нужно заменить сломанный выключатель на двойной."
+    ]
+   ]
+  },
+  "burning_smell_short_circuit": {
+   "az": [
+    [
+     "Yanıq iyi gəlir",
+     "Divardan yanıq iyi gəlir və işıq titrəyir, qorxuram."
+    ],
+    [
+     "Qısa qapanma",
+     "Rozetkada partlayış səsi oldu və işıq getdi, yanıq iyi var."
+    ],
+    [
+     "Naqil yanıb",
+     "Şitin yanından tüstü çıxdı, cərəyanı söndürmüşəm."
+    ],
+    [
+     "Elektrik yanır",
+     "Rozetkadan qara tüstü və yanıq iyi gəlir."
+    ],
+    [
+     "Tüstü çıxır",
+     "Avtomatın yanından isti iy və tüstü gəlir, dərhal baxılmalıdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Запах гари",
+     "Из розетки пахнет гарью и искрит, нужен электрик."
+    ],
+    [
+     "Короткое замыкание",
+     "Было замыкание, хлопок и запах дыма из щитка."
+    ]
+   ]
+  },
+  "locked_out": {
+   "az": [
+    [
+     "Qapı bağlı qalıb",
+     "Açar içəridə qalıb, qapı bağlanıb, açmaq lazımdır."
+    ],
+    [
+     "Qapını açmaq lazımdır",
+     "Qapını çırpıb bağlamışam, açar evdədir, kilidi zədələmədən açın."
+    ],
+    [
+     "Açar içəridə qalıb",
+     "Evə girə bilmirəm, açar içəridə qalıb."
+    ],
+    [
+     "Qapı açılmır",
+     "Qapı özü-özünə bağlandı, açar içəridədir, usta lazımdır."
+    ],
+    [
+     "Kilid açılışı",
+     "Uşaq otağın qapısını içəridən bağlayıb, açmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Захлопнулась дверь",
+     "Захлопнулась входная дверь, ключи остались внутри."
+    ],
+    [
+     "Вскрытие двери",
+     "Нужно вскрыть дверь квартиры, ключи остались внутри."
+    ]
+   ]
+  },
+  "lost_keys_rekey": {
+   "az": [
+    [
+     "Açar itib",
+     "Açarlarım itib, kilidi dəyişdirmək lazımdır."
+    ],
+    [
+     "Kilidi dəyişmək",
+     "Köçmüşəm, əvvəlki sahibin açarları var, kilidi dəyişmək istəyirəm."
+    ],
+    [
+     "Açarlar oğurlanıb",
+     "Çantam oğurlanıb və açarlar da içindədir, qapının kilidini dəyişdirin."
+    ],
+    [
+     "Silindr dəyişdirilməsi",
+     "Giriş qapısının silindrini yenisi ilə əvəz etmək lazımdır."
+    ],
+    [
+     "Yeni kilid",
+     "Açarlarım itdiyi üçün təhlükəsizlik üçün yeni kilid qoymaq istəyirəm."
+    ]
+   ],
+   "ru": [
+    [
+     "Замена замка",
+     "Потерял ключи, нужно заменить личинку замка."
+    ],
+    [
+     "Поменять замок",
+     "Нужно сменить замок на входной двери после переезда."
+    ]
+   ]
+  },
+  "jammed_lock": {
+   "az": [
+    [
+     "Kilid tutub",
+     "Açar kilidə girir amma dönmür."
+    ],
+    [
+     "Kilid işləmir",
+     "Qapının kilidi çətin açılır, açar ilişir."
+    ],
+    [
+     "Kilid ilişib",
+     "Açarı çevirəndə kilid ilişir, qapı açılmır."
+    ],
+    [
+     "Kilid xarab olub",
+     "Kilidin dili çıxmır, qapını bağlaya bilmirəm."
+    ],
+    [
+     "Qıfıl sıxılıb",
+     "Qapıdakı qıfıl sıxılıb, açar yarı döndükdən sonra dayanır."
+    ]
+   ],
+   "ru": [
+    [
+     "Заклинил замок",
+     "Ключ не поворачивается в замке, замок заклинило."
+    ],
+    [
+     "Не закрывается замок",
+     "Замок плохо закрывается, ключ заедает."
+    ]
+   ]
+  },
+  "lock_installation": {
+   "az": [
+    [
+     "Kilid quraşdırmaq",
+     "Yeni giriş qapısı üçün kilid qoşmaq lazımdır."
+    ],
+    [
+     "Qapıya kilid qoymaq",
+     "Otaq qapısına yeni kilid quraşdırmaq istəyirəm."
+    ],
+    [
+     "Smart kilid",
+     "Qapıya elektron kilid quraşdırmaq lazımdır."
+    ],
+    [
+     "Yeni qıfıl",
+     "Yeni aldığım kilidi qapıya yerləşdirmək lazımdır."
+    ],
+    [
+     "Kilid əlavə etmək",
+     "Mövcud qapıya əlavə təhlükəsizlik kilidi qoşmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Установка замка",
+     "Нужно врезать новый замок в межкомнатную дверь."
+    ],
+    [
+     "Электронный замок",
+     "Установить электронный замок на входную дверь."
+    ]
+   ]
+  },
+  "key_duplication": {
+   "az": [
+    [
+     "Açar surəti",
+     "Mənzil açarının surətini çıxarmaq lazımdır."
+    ],
+    [
+     "Açar çıxarmaq",
+     "Giriş qapısının açarından 3 ədəd əlavə surət lazımdır."
+    ],
+    [
+     "Açarın dublikatı",
+     "Xüsusi qoruyucu açarın dublikatını düzəltmək lazımdır."
+    ],
+    [
+     "Domofon açarı",
+     "Domofon açarını kopyalamaq istəyirəm."
+    ],
+    [
+     "Çoxlu açar",
+     "Ofis üçün bir neçə açar surəti hazırlamaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Копия ключа",
+     "Нужно сделать дубликат ключа от квартиры."
+    ],
+    [
+     "Сделать ключи",
+     "Сделать несколько копий ключа от домофона."
+    ]
+   ]
+  },
+  "door_handle_issue": {
+   "az": [
+    [
+     "Qapı dəstəyi sınıb",
+     "Otaq qapısının dəstəyi qırılıb, dəyişmək lazımdır."
+    ],
+    [
+     "Dəstək boşalıb",
+     "Qapı dəstəyi boş fırlanır, qapı açılmır."
+    ],
+    [
+     "Dəstək dəyişmək",
+     "Köhnə qapı dəstəklərini yeniləri ilə əvəz etmək istəyirəm."
+    ],
+    [
+     "Qapı dili",
+     "Qapının dili çıxmır, dəstək işləmir."
+    ],
+    [
+     "Dəstək quraşdırmaq",
+     "Vanna otağının qapısına yeni dəstək qoymaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Сломалась дверная ручка",
+     "Сломалась ручка на межкомнатной двери, нужна замена."
+    ],
+    [
+     "Заменить ручку",
+     "Ручка двери болтается, нужно закрепить или заменить."
+    ]
+   ]
+  },
+  "car_lockout": {
+   "az": [
+    [
+     "Maşının qapısı bağlı qalıb",
+     "Açar maşının içində qalıb, qapılar bağlanıb."
+    ],
+    [
+     "Avtomobili açmaq",
+     "Maşını açmaq lazımdır, açar salonda qalıb."
+    ],
+    [
+     "Maşın açılmır",
+     "Maşının mərkəzi kilidi işləmir və qapı açılmır."
+    ],
+    [
+     "Avtomobil kilidi",
+     "Maşını bağlayıb açarı içəridə unutmuşam, zədə vurmadan açın."
+    ],
+    [
+     "Maşın qapısı",
+     "Avtomobilin qapısı bağlı qalıb, açar salondadır, açmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Заблокировал машину",
+     "Ключи остались в машине, нужно открыть автомобиль."
+    ],
+    [
+     "Открыть авто",
+     "Захлопнул машину с ключами внутри, помогите открыть."
+    ]
+   ]
+  },
+  "washer_not_draining": {
+   "az": [
+    [
+     "Paltaryuyan su boşaltmır",
+     "Paltaryuyan maşın suyu boşaltmır, içində su qalır."
+    ],
+    [
+     "Paltaryuyan su çəkmir",
+     "Paltaryuyan su çəkmir və yuyulma başlamır."
+    ],
+    [
+     "Paltaryuyan xəta verir",
+     "Paltaryuyan E18 xətası verir, su qalır."
+    ],
+    [
+     "Maşın suyu çıxarmır",
+     "Paltaryuyan maşın yuyub suyu çıxarmır, paltarlar suda qalır."
+    ],
+    [
+     "Drenaj nasosu",
+     "Paltaryuyan su boşaltmaq istəmir, nasos və ya filtr problemidir deyəsən."
+    ]
+   ],
+   "ru": [
+    [
+     "Стиралка не сливает воду",
+     "Стиральная машина не сливает воду, остаётся в барабане."
+    ],
+    [
+     "Не набирает воду",
+     "Стиральная машина не набирает воду и выдаёт ошибку."
+    ]
+   ]
+  },
+  "washer_not_spinning_noise": {
+   "az": [
+    [
+     "Paltaryuyan sıxmır",
+     "Paltaryuyan paltarları sıxmır, hamısı yaş qalır."
+    ],
+    [
+     "Paltaryuyan səs salır",
+     "Paltaryuyan sıxım zamanı çox güclü səs salır və titrəyir."
+    ],
+    [
+     "Baraban fırlanmır",
+     "Paltaryuyanın barabanı fırlanmır, motor səs verir."
+    ],
+    [
+     "Paltaryuyan titrəyir",
+     "Paltaryuyan işləyəndə yerindən tərpənir və gurultu çıxarır."
+    ],
+    [
+     "Paltaryuyan işə düşmür",
+     "Paltaryuyan maşın işə düşmür, qapı da bağlanmır."
+    ]
+   ],
+   "ru": [
+    [
+     "Стиралка шумит",
+     "Стиральная машина сильно шумит и вибрирует при отжиме."
+    ],
+    [
+     "Не отжимает",
+     "Стиральная машина не отжимает бельё, барабан крутится плохо."
+    ]
+   ]
+  },
+  "fridge_not_cooling": {
+   "az": [
+    [
+     "Soyuducu soyutmur",
+     "Soyuducu işləyir amma soyutmur, məhsullar xarab olur."
+    ],
+    [
+     "Soyuducu işləmir",
+     "Soyuducu söndü, kompressor səs vermir."
+    ],
+    [
+     "Dondurucu buz bağlayıb",
+     "Dondurucu kamera buz bağlayır və soyuq saxlamır."
+    ],
+    [
+     "Soyuducu isti olub",
+     "Soyuducunun içi isti olub, motor tez-tez işə düşür."
+    ],
+    [
+     "Soyuducu təmiri",
+     "Soyuducu zəif soyudur, freon çatışmazlığı ola bilər."
+    ]
+   ],
+   "ru": [
+    [
+     "Холодильник не холодит",
+     "Холодильник работает, но не морозит, продукты портятся."
+    ],
+    [
+     "Не работает холодильник",
+     "Холодильник перестал включаться, компрессор молчит."
+    ]
+   ]
+  },
+  "fridge_leaking_noisy": {
+   "az": [
+    [
+     "Soyuducudan su axır",
+     "Soyuducunun altından su axır."
+    ],
+    [
+     "Soyuducu səs salır",
+     "Soyuducu gecələr çox səs-küy salır və vıyıldayır."
+    ],
+    [
+     "Soyuducu damcılayır",
+     "Soyuducunun arxa divarından su damcılayır."
+    ],
+    [
+     "Soyuducu döyünür",
+     "Soyuducunun kompressoru döyüntü kimi səs çıxarır."
+    ],
+    [
+     "Soyuducuda su yığılır",
+     "Soyuducunun içində su yığılır, drenaj tutulub deyəsən."
+    ]
+   ],
+   "ru": [
+    [
+     "Течёт холодильник",
+     "Из-под холодильника течёт вода на пол."
+    ],
+    [
+     "Шумит холодильник",
+     "Холодильник сильно гудит и стучит по ночам."
+    ]
+   ]
+  },
+  "dishwasher_issue": {
+   "az": [
+    [
+     "Qabyuyan işləmir",
+     "Qabyuyan maşın işə düşmür, işıqlar yanıb-sönür."
+    ],
+    [
+     "Qabyuyan su yığır",
+     "Qabyuyanın içində su yığılıb qalır."
+    ],
+    [
+     "Qabyuyan yaxşı yumur",
+     "Qabyuyan qabları təmiz yumur, ağ iz qalır."
+    ],
+    [
+     "Qabyuyan sızdırır",
+     "Qabyuyanın qapısından su axır."
+    ],
+    [
+     "Qabyuyan xəta verir",
+     "Qabyuyan xəta kodu göstərir və dayanır."
+    ]
+   ],
+   "ru": [
+    [
+     "Посудомойка не работает",
+     "Посудомоечная машина не включается."
+    ],
+    [
+     "Течёт посудомойка",
+     "Посудомоечная машина течёт снизу, не сливает воду."
+    ]
+   ]
+  },
+  "oven_stove_issue": {
+   "az": [
+    [
+     "Plita yanmır",
+     "Qaz plitəsinin sobası yanmır, düyməni basanda alışmır."
+    ],
+    [
+     "Duxovka işləmir",
+     "Elektrik duxovka qızmır, termostat xarab olub deyəsən."
+    ],
+    [
+     "Elektrik plita xarab",
+     "Elektrik plitənin ocağı işləmir."
+    ],
+    [
+     "Soba problemi",
+     "Duxovkanın qapısı bağlanmır və istilik çıxır."
+    ],
+    [
+     "Plita təmiri",
+     "Plitənin bir ocağı alışmır, baxmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Не работает духовка",
+     "Духовка не нагревается, нужно проверить тэн."
+    ],
+    [
+     "Не включается плита",
+     "Плита не зажигается, конфорка не работает."
+    ]
+   ]
+  },
+  "small_appliance": {
+   "az": [
+    [
+     "Mikrodalğalı soba",
+     "Mikrodalğalı soba işləyir amma qızdırmır."
+    ],
+    [
+     "Tozsoran xarab",
+     "Tozsoran çəkmir və qızır, təmir lazımdır."
+    ],
+    [
+     "Çaydan xarab",
+     "Elektrik çaydan söndü, qoşanda işıq yanmır."
+    ],
+    [
+     "Qəhvə aparatı",
+     "Qəhvə aparatı su çəkmir və xəta verir."
+    ],
+    [
+     "Ütü təmiri",
+     "Ütü qızmır və buxar vermir."
+    ]
+   ],
+   "ru": [
+    [
+     "Микроволновка не греет",
+     "Микроволновка работает, но не нагревает еду."
+    ],
+    [
+     "Не работает пылесос",
+     "Пылесос сильно гудит и плохо тянет."
+    ]
+   ]
+  },
+  "wont_start": {
+   "az": [
+    [
+     "Maşın işə düşmür",
+     "Maşın işə düşmür, açarı çevirəndə klik səsi gəlir."
+    ],
+    [
+     "Akkumulyator problemi",
+     "Maşının akkumulyatoru oturub, yeni qoymaq və ya şarj etmək lazımdır."
+    ],
+    [
+     "Starter işləmir",
+     "Starter dönmür, maşın heç cür yanmır."
+    ],
+    [
+     "Maşın yanmır",
+     "Səhər maşını işə sala bilmirəm, panel işıqları zəif yanır."
+    ],
+    [
+     "Maşın çətin işə düşür",
+     "Maşın bir neçə dəfədən sonra işə düşür, yoxlamaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Не заводится машина",
+     "Машина не заводится, при повороте ключа только щелчок."
+    ],
+    [
+     "Сел аккумулятор",
+     "Сел аккумулятор, нужно завести или заменить."
+    ]
+   ]
+  },
+  "brake_noise_problem": {
+   "az": [
+    [
+     "Əyləc səs salır",
+     "Əyləcə basanda gicildəmə səsi gəlir."
+    ],
+    [
+     "Əyləc zəifdir",
+     "Əyləc pedalı yumşaq düşür və maşın gec dayanır."
+    ],
+    [
+     "Əyləc kolodkaları",
+     "Ön əyləc kolodkaları bitib, dəyişmək lazımdır."
+    ],
+    [
+     "Əyləc diskləri",
+     "Əyləc zamanı sükan titrəyir, disklər əyilib deyəsən."
+    ],
+    [
+     "Əyləc problemi",
+     "Əyləc mayesi azalıb və əyləc zəif tutur."
+    ]
+   ],
+   "ru": [
+    [
+     "Скрипят тормоза",
+     "Тормоза скрипят при торможении, нужна замена колодок."
+    ],
+    [
+     "Слабые тормоза",
+     "Педаль тормоза проваливается, машина плохо тормозит."
+    ]
+   ]
+  },
+  "check_engine_diagnostics": {
+   "az": [
+    [
+     "Mühərrik lampası yanır",
+     "Paneldə Check Engine lampası yanır, diaqnostika lazımdır."
+    ],
+    [
+     "Kompüter diaqnostikası",
+     "Maşının kompüter diaqnostikasını etmək və xətaları oxumaq lazımdır."
+    ],
+    [
+     "Mühərrik titrəyir",
+     "Mühərrik boş rejimdə əsir və qeyri-bərabər işləyir."
+    ],
+    [
+     "Yanacaq çox xərcləyir",
+     "Maşın birdən çox yanacaq sərf etməyə başlayıb, səbəbini tapmaq lazımdır."
+    ],
+    [
+     "Maşın gücünü itirib",
+     "Maşın sürətlənmir və gücü azalıb, check yanır."
+    ]
+   ],
+   "ru": [
+    [
+     "Горит чек двигателя",
+     "Загорелся check engine, нужна компьютерная диагностика."
+    ],
+    [
+     "Троит двигатель",
+     "Двигатель троит на холостых, нужно найти причину."
+    ]
+   ]
+  },
+  "oil_service": {
+   "az": [
+    [
+     "Yağ dəyişmək",
+     "Mühərrik yağını və yağ filtrini dəyişdirmək lazımdır."
+    ],
+    [
+     "Texniki baxış",
+     "Maşının planlı texniki xidməti lazımdır: yağ, filtrlər."
+    ],
+    [
+     "Yağ və filtr",
+     "Yağ, hava və salon filtrlərini dəyişmək istəyirəm."
+    ],
+    [
+     "Servis",
+     "Maşın 10 min kilometr getdi, yağ servisi lazımdır."
+    ],
+    [
+     "Mühərrik yağı",
+     "Mühərrik yağını sintetik yağla əvəz etmək lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Замена масла",
+     "Нужно заменить моторное масло и масляный фильтр."
+    ],
+    [
+     "ТО автомобиля",
+     "Требуется плановое ТО, масло и фильтры."
+    ]
+   ]
+  },
+  "suspension_noise": {
+   "az": [
+    [
+     "Podveska döyür",
+     "Maşının podveskası yolun çuxurlarında döyünür."
+    ],
+    [
+     "Podveska səs salır",
+     "Sürəndə ön tərəfdən taqqıltı səsi gəlir."
+    ],
+    [
+     "Amortizator",
+     "Amortizatorlar yağ sızdırır, dəyişmək lazımdır."
+    ],
+    [
+     "Ön podveska",
+     "Ön podveskanı yoxlamaq lazımdır, əyriliklərdə səs gəlir."
+    ],
+    [
+     "Maşın yırğalanır",
+     "Maşın yolda yırğalanır və sükan titrəyir, podveska zədələnib deyəsən."
+    ]
+   ],
+   "ru": [
+    [
+     "Стучит подвеска",
+     "Подвеска стучит на неровностях, нужна диагностика."
+    ],
+    [
+     "Замена амортизаторов",
+     "Нужно заменить передние амортизаторы."
+    ]
+   ]
+  },
+  "car_electrical_fault": {
+   "az": [
+    [
+     "Fara yanmır",
+     "Maşının sol faraları yanmır, lampa və ya elektrik problemidir."
+    ],
+    [
+     "Avtoelektrik",
+     "Maşında generator şarj vermir və panel qırmızı yanır."
+    ],
+    [
+     "Stop işığı",
+     "Maşının stop işıqları yanmır, naqil problemi ola bilər."
+    ],
+    [
+     "Şüşəqaldırıcı",
+     "Şüşə qaldırıcı düymələri işləmir."
+    ],
+    [
+     "Elektrik nasazlıq",
+     "Maşında müxtəlif lampalar yanıb-sönür, elektrik nasazlığıdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Автоэлектрик",
+     "Не работает генератор, горит значок аккумулятора."
+    ],
+    [
+     "Не горят фары",
+     "Не горят ближние фары, нужно проверить проводку."
+    ]
+   ]
+  },
+  "flat_tire_tire_service": {
+   "az": [
+    [
+     "Təkər partlayıb",
+     "Yolda təkər partladı, təkər dəyişmək lazımdır."
+    ],
+    [
+     "Təkər balansı",
+     "Dörd təkəri balans etmək və qış təkərlərini taxmaq lazımdır."
+    ],
+    [
+     "Təkər deşilib",
+     "Arxa təkər deşilib, yamaq vurmaq lazımdır."
+    ],
+    [
+     "Təkər dəyişdirmək",
+     "Yay təkərlərini qışlıqla dəyişdirmək lazımdır."
+    ],
+    [
+     "Təkər hava buraxır",
+     "Təkər hər gün hava buraxır, yoxlamaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Пробито колесо",
+     "Пробило колесо, нужен выезд на шиномонтаж."
+    ],
+    [
+     "Шиномонтаж",
+     "Нужно переобуть машину на зимнюю резину и сделать балансировку."
+    ]
+   ]
+  },
+  "phone_cracked_screen": {
+   "az": [
+    [
+     "Telefon ekranı sınıb",
+     "Telefonun ekranı çatlayıb, toxunma işləyir amma şüşə sınıb."
+    ],
+    [
+     "Ekran dəyişmək",
+     "iPhone ekranını dəyişmək lazımdır, yerə düşüb."
+    ],
+    [
+     "Ekran sındı",
+     "Samsung telefonumun ekranı sınıb və bəzi yerlər işləmir."
+    ],
+    [
+     "Şüşə çatlayıb",
+     "Telefonun arxa və ön şüşəsi çatlayıb, dəyişdirmək istəyirəm."
+    ],
+    [
+     "Ekranda xətlər",
+     "Telefonun ekranında şaquli xətlər çıxır və görüntü pozulub."
+    ]
+   ],
+   "ru": [
+    [
+     "Разбит экран телефона",
+     "Разбился экран на телефоне, нужна замена дисплея."
+    ],
+    [
+     "Треснуло стекло",
+     "Треснуло стекло на смартфоне, сенсор частично не работает."
+    ]
+   ]
+  },
+  "phone_not_charging": {
+   "az": [
+    [
+     "Telefon şarj olmur",
+     "Telefon şarj olmur, kabeli qoşanda reaksiya vermir."
+    ],
+    [
+     "Şarj yuvası",
+     "Telefonun şarj yuvası boşalıb, kabel yaxşı tutmur."
+    ],
+    [
+     "Batareya tez bitir",
+     "Telefonun batareyası bir neçə saata bitir, dəyişmək lazımdır."
+    ],
+    [
+     "Şarj getmir",
+     "Telefon şarja qoşulur amma faiz artmır."
+    ],
+    [
+     "Telefon qızır",
+     "Telefon şarj olarkən çox qızır və tez boşalır."
+    ]
+   ],
+   "ru": [
+    [
+     "Не заряжается телефон",
+     "Телефон не заряжается, возможно разъём."
+    ],
+    [
+     "Быстро садится батарея",
+     "Телефон очень быстро разряжается, нужна новая батарея."
+    ]
+   ]
+  },
+  "laptop_wont_boot": {
+   "az": [
+    [
+     "Noutbuk açılmır",
+     "Noutbuk açılmır, düyməni basanda işıq yanıb sönür."
+    ],
+    [
+     "Noutbuk işə düşmür",
+     "Noutbuk işə düşmür və ekran qaradır."
+    ],
+    [
+     "Noutbuk ekranı qara",
+     "Noutbukun ekranında şəkil yoxdur, səs gəlir."
+    ],
+    [
+     "Noutbuk söndü",
+     "Noutbuk birdən söndü və bir daha yanmadı."
+    ],
+    [
+     "Noutbuk qızır",
+     "Noutbuk çox qızır və özü-özünə sönür."
+    ]
+   ],
+   "ru": [
+    [
+     "Ноутбук не включается",
+     "Ноутбук не включается, индикатор мигает."
+    ],
+    [
+     "Чёрный экран",
+     "На ноутбуке чёрный экран, но кулер шумит."
+    ]
+   ]
+  },
+  "laptop_slow_software": {
+   "az": [
+    [
+     "Noutbuk yavaş işləyir",
+     "Noutbuk çox yavaş işləyir və tez-tez donur."
+    ],
+    [
+     "Windows qurmaq",
+     "Noutbuka yeni Windows qurmaq və proqramları yükləmək lazımdır."
+    ],
+    [
+     "Virus problemi",
+     "Kompüterdə virus var və reklamlar çıxır, təmizləmək lazımdır."
+    ],
+    [
+     "Noutbuk donur",
+     "Noutbuk işə düşəndə uzun gözləyir və proqramlar açılmır."
+    ],
+    [
+     "Sistem yeniləmək",
+     "Noutbukun sistemini təmizləyib sürətləndirmək lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Тормозит ноутбук",
+     "Ноутбук сильно тормозит, нужно переустановить Windows."
+    ],
+    [
+     "Вирусы",
+     "На компьютере вирусы и всплывающая реклама, нужна чистка."
+    ]
+   ]
+  },
+  "tv_no_picture": {
+   "az": [
+    [
+     "Televizor görüntü vermir",
+     "Televizorda səs var amma görüntü yoxdur."
+    ],
+    [
+     "Televizor açılmır",
+     "Televizor açılmır, qırmızı işıq yanır."
+    ],
+    [
+     "Televizorda zolaqlar",
+     "Televizor ekranında üfüqi zolaqlar var."
+    ],
+    [
+     "Televizor söndü",
+     "Televizor bir neçə dəqiqədən sonra özü sönür."
+    ],
+    [
+     "TV təmiri",
+     "Televizorun işıqlandırması getdi, ekran qaranlıqdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Нет изображения на телевизоре",
+     "На телевизоре есть звук, но нет изображения."
+    ],
+    [
+     "Не включается ТВ",
+     "Телевизор не включается, горит красный индикатор."
+    ]
+   ]
+  },
+  "water_damaged_device": {
+   "az": [
+    [
+     "Telefon suya düşüb",
+     "Telefon suya düşdü və açılmır, baxmaq lazımdır."
+    ],
+    [
+     "Noutbuka su tökülüb",
+     "Noutbukun klaviaturasına çay tökülüb, indi işləmir."
+    ],
+    [
+     "Cihaz islanıb",
+     "Planşet yağışda islandı və ekran titrəyir."
+    ],
+    [
+     "Suya düşmüş cihaz",
+     "Qulaqlıq və telefon yuyulmuş paltarın içində qalıb, açılmır."
+    ],
+    [
+     "Nəm düşüb",
+     "Telefonun kamerasında nəm var, bəzən söndürür."
+    ]
+   ],
+   "ru": [
+    [
+     "Телефон упал в воду",
+     "Телефон упал в воду и не включается, нужна чистка."
+    ],
+    [
+     "Залили ноутбук",
+     "На ноутбук пролили воду, теперь не работает клавиатура."
+    ]
+   ]
+  },
+  "console_tablet_issue": {
+   "az": [
+    [
+     "PlayStation təmiri",
+     "PlayStation oyun konsolu qızır və disk oxumur."
+    ],
+    [
+     "Planşet işləmir",
+     "Planşet işə düşmür, şarj etsəm də açılmır."
+    ],
+    [
+     "Konsol xəta verir",
+     "Xbox konsolu xəta verir və yüklənmir."
+    ],
+    [
+     "Planşet ekranı",
+     "Planşetin ekranı sınıb və toxunma işləmir."
+    ],
+    [
+     "Oyun pultu",
+     "Oyun pultu ekrana qoşulmur, düymələr qalır."
+    ]
+   ],
+   "ru": [
+    [
+     "Ремонт приставки",
+     "Игровая приставка перегревается и выключается."
+    ],
+    [
+     "Не включается планшет",
+     "Планшет не включается и не заряжается."
+    ]
+   ]
+  },
+  "wall_painting_job": {
+   "az": [
+    [
+     "Divar rənglətmək",
+     "3 otaqlı mənzilin divarlarını rəngləmək lazımdır."
+    ],
+    [
+     "Otağı boyatmaq",
+     "Yataq otağını açıq rəngə boyatmaq istəyirəm."
+    ],
+    [
+     "Rəngsaz lazımdır",
+     "Qonaq otağını və dəhlizi rəngləmək üçün rəngsaz axtarıram."
+    ],
+    [
+     "Divar boyası",
+     "Köhnə boyanı təmizləyib divarları yenidən rəngləmək lazımdır."
+    ],
+    [
+     "Mənzil rəngləmək",
+     "Mənzili təhvil verməzdən əvvəl divarları təzədən rəngləmək lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Покраска стен",
+     "Нужно покрасить стены в двух комнатах."
+    ],
+    [
+     "Нужен маляр",
+     "Ищу маляра для покраски квартиры."
+    ]
+   ]
+  },
+  "wallpaper_job": {
+   "az": [
+    [
+     "Divar kağızı yapışdırmaq",
+     "Qonaq otağına divar kağızı yapışdırmaq lazımdır."
+    ],
+    [
+     "Oboy vurmaq",
+     "Otağa yeni oboy vurmaq üçün usta axtarıram."
+    ],
+    [
+     "Köhnə oboyu sökmək",
+     "Köhnə oboyları sökməli və yenilərini yapışdırmalıyam."
+    ],
+    [
+     "Divar kağızı",
+     "Yataq otağının bir divarına dekorativ divar kağızı yapışdırmaq lazımdır."
+    ],
+    [
+     "Oboy işi",
+     "Uşaq otağı üçün oboy yapışdırmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Поклейка обоев",
+     "Нужно поклеить обои в гостиной."
+    ],
+    [
+     "Обои в комнату",
+     "Оклеить комнату новыми обоями, старые снять."
+    ]
+   ]
+  },
+  "plaster_putty_job": {
+   "az": [
+    [
+     "Suvaq işləri",
+     "Divarları suvamaq və şpaklyovka etmək lazımdır."
+    ],
+    [
+     "Şpaklyovka",
+     "Rəngləmədən əvvəl divarların şpaklyovkası lazımdır."
+    ],
+    [
+     "Divar çatları",
+     "Divarlarda çatlar var, suvaq və şpaklyovka ilə düzəltmək lazımdır."
+    ],
+    [
+     "Divar düzləndirmək",
+     "Divarları düzləndirmək və suvaq vurmaq lazımdır."
+    ],
+    [
+     "Gips şpatel",
+     "Otağın divarlarını gips ilə şpatellə hamarlamaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Штукатурка стен",
+     "Нужно оштукатурить и зашпаклевать стены."
+    ],
+    [
+     "Шпаклёвка",
+     "Выровнять стены шпаклёвкой под покраску."
+    ]
+   ]
+  },
+  "tiling_job": {
+   "az": [
+    [
+     "Kafel döşəmək",
+     "Vanna otağına kafel döşəmək lazımdır."
+    ],
+    [
+     "Plitka düzmək",
+     "Mətbəxin döşəməsinə plitka düzmək lazımdır."
+    ],
+    [
+     "Kafel dəyişmək",
+     "Qırılmış kafelləri sökməli və yenisini yapışdırmalıyam."
+    ],
+    [
+     "Plitka işləri",
+     "Hamam və tualetin divarlarına keramik plitka döşətmək istəyirəm."
+    ],
+    [
+     "Kafel quraşdırmaq",
+     "Mətbəx fartukuna kafel yapışdırmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Укладка плитки",
+     "Нужно уложить плитку в ванной комнате."
+    ],
+    [
+     "Плитка на кухне",
+     "Выложить плитку на пол в кухне."
+    ]
+   ]
+  },
+  "flooring_job": {
+   "az": [
+    [
+     "Laminat döşəmək",
+     "Otağa laminat döşətmək lazımdır."
+    ],
+    [
+     "Parket",
+     "Köhnə parketi dəyişib yenisini düzmək lazımdır."
+    ],
+    [
+     "Döşəmə təmiri",
+     "Döşəmə şaqqıldayır və qabarıb, dəyişmək lazımdır."
+    ],
+    [
+     "Linoleum",
+     "Mətbəxə linoleum döşəmək üçün usta lazımdır."
+    ],
+    [
+     "Döşəmə işi",
+     "Qonaq otağının döşəməsinə laminat və plintus qoymaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Укладка ламината",
+     "Нужно уложить ламинат в спальне."
+    ],
+    [
+     "Замена паркета",
+     "Заменить старый паркет в комнате."
+    ]
+   ]
+  },
+  "ceiling_work": {
+   "az": [
+    [
+     "Tavan təmiri",
+     "Tavanda su ləkəsi və çatlar var, düzəltmək lazımdır."
+    ],
+    [
+     "Gips karton tavan",
+     "Qonaq otağına gips karton tavan çəkmək lazımdır."
+    ],
+    [
+     "Tavanı rəngləmək",
+     "Tavanı hamarlayıb ağ rəngləmək lazımdır."
+    ],
+    [
+     "Asma tavan",
+     "Mətbəxə asma tavan və spot işıqları üçün yer hazırlamaq lazımdır."
+    ],
+    [
+     "Tavan suvağı",
+     "Tavanın suvağı tökülür, təmir etmək lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Ремонт потолка",
+     "На потолке пятна и трещины, нужно отремонтировать."
+    ],
+    [
+     "Потолок из гипсокартона",
+     "Нужно сделать потолок из гипсокартона в зале."
+    ]
+   ]
+  },
+  "full_renovation": {
+   "az": [
+    [
+     "Mənzil təmiri",
+     "2 otaqlı mənzilin əsaslı təmiri lazımdır."
+    ],
+    [
+     "Əsaslı təmir",
+     "Yeni mənzildə sıfırdan təmir etmək lazımdır, komanda axtarıram."
+    ],
+    [
+     "Kosmetik təmir",
+     "Mənzilin kosmetik təmirini etmək istəyirəm."
+    ],
+    [
+     "Vanna otağı təmiri",
+     "Vanna otağını tam yeniləmək lazımdır, söküntü, plitka və santexnika daxil."
+    ],
+    [
+     "Ofis təmiri",
+     "Kiçik ofisin təmirini etmək lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Ремонт квартиры",
+     "Нужен капитальный ремонт двухкомнатной квартиры."
+    ],
+    [
+     "Косметический ремонт",
+     "Требуется косметический ремонт квартиры под ключ."
+    ]
+   ]
+  },
+  "ac_not_cooling": {
+   "az": [
+    [
+     "Kondisioner soyutmur",
+     "Kondisioner işləyir amma otağı soyutmur."
+    ],
+    [
+     "Kondisioner isti üfürür",
+     "Kondisioner soyuq əvəzinə isti hava üfürür."
+    ],
+    [
+     "Kondisioner zəif soyudur",
+     "Kondisionerin soyutması zəifləyib, freon bitib deyəsən."
+    ],
+    [
+     "Kondisioner işə düşmür",
+     "Kondisioner pultdan açılmır və xəta kodu göstərir."
+    ],
+    [
+     "Kondisioner təmiri",
+     "Split kondisioner yay günü soyutmur, baxmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Кондиционер не холодит",
+     "Кондиционер работает, но не охлаждает комнату."
+    ],
+    [
+     "Не включается кондиционер",
+     "Кондиционер не включается с пульта, показывает ошибку."
+    ]
+   ]
+  },
+  "ac_water_leak": {
+   "az": [
+    [
+     "Kondisioner su damır",
+     "Kondisionerin daxili blokundan su damır."
+    ],
+    [
+     "Kondisionerdən su axır",
+     "Kondisionerdən otağa su axır və divar islanır."
+    ],
+    [
+     "Drenaj borusu",
+     "Kondisionerin drenaj borusu tutulub və su yığılıb."
+    ],
+    [
+     "Daxili blok sızdırır",
+     "Daxili blok işləyəndə su damcılayır."
+    ],
+    [
+     "Kondisioner suyu",
+     "Kondisionerin altından su süzülür, divarda ləkə yaranıb."
+    ]
+   ],
+   "ru": [
+    [
+     "Течёт кондиционер",
+     "Из внутреннего блока кондиционера капает вода."
+    ],
+    [
+     "Капает с кондиционера",
+     "С кондиционера течёт вода на стену."
+    ]
+   ]
+  },
+  "ac_installation": {
+   "az": [
+    [
+     "Kondisioner quraşdırmaq",
+     "Yeni split kondisioner quraşdırmaq lazımdır."
+    ],
+    [
+     "Kondisioner köçürmək",
+     "Kondisioneri bir otaqdan başqa otağa köçürmək lazımdır."
+    ],
+    [
+     "Kondisioner montajı",
+     "Aldığım 12-lik kondisionerin montajını etmək lazımdır."
+    ],
+    [
+     "Split sistem",
+     "Mənzilə iki split sistem quraşdırmaq istəyirəm."
+    ],
+    [
+     "Kondisioner sökmək",
+     "Köhnə kondisioneri sökmək və yenisini quraşdırmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Установка кондиционера",
+     "Нужно установить новую сплит-систему в спальне."
+    ],
+    [
+     "Монтаж кондиционера",
+     "Нужен монтаж кондиционера и прокладка трассы."
+    ]
+   ]
+  },
+  "ac_cleaning_gas": {
+   "az": [
+    [
+     "Kondisioner təmizliyi",
+     "Kondisionerin daxili və xarici blokunu təmizlətmək lazımdır."
+    ],
+    [
+     "Freon doldurmaq",
+     "Kondisionerə freon doldurmaq lazımdır."
+    ],
+    [
+     "Kondisioner yuyulması",
+     "İl ərzində kondisioner yuyulmayıb, iy gəlir."
+    ],
+    [
+     "Kondisioner servisi",
+     "Mövsümdən əvvəl kondisioneri yoxlayıb təmizləmək istəyirəm."
+    ],
+    [
+     "Qaz doldurma",
+     "Kondisionerin qazı bitib, doldurmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Чистка кондиционера",
+     "Нужна чистка внутреннего и внешнего блока кондиционера."
+    ],
+    [
+     "Заправка фреоном",
+     "Нужно заправить кондиционер фреоном."
+    ]
+   ]
+  },
+  "radiator_not_heating": {
+   "az": [
+    [
+     "Radiator isinmir",
+     "Otaqdakı radiator qızmır, yuxarısı isti aşağısı soyuqdur."
+    ],
+    [
+     "Radiator soyuqdur",
+     "Bir radiator ümumiyyətlə isinmir, digərləri normaldır."
+    ],
+    [
+     "Radiatorda hava",
+     "Radiatorlarda hava toplanıb və səs gəlir."
+    ],
+    [
+     "İsitmə sistemi",
+     "Mərkəzi istilik sistemində radiatorlar zəif qızır."
+    ],
+    [
+     "Radiator dəyişmək",
+     "Köhnə radiatoru dəyişdirmək və yenisini qoşmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Не греет батарея",
+     "Радиатор в комнате не греет, сверху тёплый, снизу холодный."
+    ],
+    [
+     "Воздух в батарее",
+     "В радиаторах воздух, булькает и плохо греют."
+    ]
+   ]
+  },
+  "boiler_combi_error": {
+   "az": [
+    [
+     "Kombi xəta verir",
+     "Kombi xəta kodu göstərir və qızdırmır."
+    ],
+    [
+     "Kombi yanmır",
+     "Kombi yanmır, qaz gəlir amma alışmır."
+    ],
+    [
+     "Kombi təmiri",
+     "Kombinin təzyiqi düşür, daim su əlavə etməliyəm."
+    ],
+    [
+     "Qazanın servisi",
+     "Kombi və ya qaz qazanı üçün illik servis lazımdır."
+    ],
+    [
+     "Kombi isti su vermir",
+     "Kombi işləyir, isti su gəlmir, yoxlamaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Ошибка котла",
+     "Газовый котёл выдаёт ошибку и не запускается."
+    ],
+    [
+     "Не греет котёл",
+     "Двухконтурный котёл не нагревает воду для горячей воды."
+    ]
+   ]
+  },
+  "ventilation_issue": {
+   "az": [
+    [
+     "Havalandırma işləmir",
+     "Vanna otağındakı ventilyator işləmir."
+    ],
+    [
+     "Ventilyator səs salır",
+     "Mətbəxdəki ventilyator çox səs-küy salır."
+    ],
+    [
+     "Havalandırma zəifdir",
+     "Mənzildə havalandırma zəifdir və rütubət yığılır."
+    ],
+    [
+     "Hava kanalı",
+     "Mətbəxdəki hava kanalı hava çəkmir, iylər otaqlara yayılır."
+    ],
+    [
+     "Aspirator quraşdırmaq",
+     "Mətbəxə yeni aspirator quraşdırmaq lazımdır."
+    ]
+   ],
+   "ru": [
+    [
+     "Не работает вентиляция",
+     "Не работает вытяжка в ванной, нужен мастер."
+    ],
+    [
+     "Установка вытяжки",
+     "Установить кухонную вытяжку и вывести воздуховод."
+    ]
+   ]
+  }
+ },
+ "context": {
+  "time": {
+   "az": [
+    "Bu gün axşam evdə olacağam.",
+    "Sabah səhər uyğundur.",
+    "Həftə sonu gəlmək olar.",
+    "İstənilən vaxt evdəyəm.",
+    "Axşam saat 6-dan sonra evdə oluram.",
+    "Bu həftə içində baxsanız yaxşı olar."
+   ],
+   "ru": [
+    "Буду дома сегодня вечером.",
+    "Удобно завтра с утра.",
+    "Можно в выходные.",
+    "Я дома в любое время."
+   ]
+  },
+  "location": {
+   "az": [
+    "{district} rayonu.",
+    "Ünvan: {district}.",
+    "{district} rayonunda yaşayıram.",
+    "Metroya yaxındır, {district}."
+   ],
+   "ru": [
+    "Район {district}.",
+    "Живу в районе {district}."
+   ]
+  },
+  "budget": {
+   "az": [
+    "Büdcə {min}-{max} AZN.",
+    "{max} AZN-ə qədər düşünürəm.",
+    "Qiymət razılaşma ilə.",
+    "Qiyməti usta desin."
+   ],
+   "ru": [
+    "Бюджет {min}-{max} AZN.",
+    "Цена договорная."
+   ]
+  },
+  "request": {
+   "az": [
+    "Qiymət təklifi göndərin.",
+    "Bacaran usta yazsın.",
+    "Əlaqə saxlayın.",
+    "Təklif gözləyirəm."
+   ],
+   "ru": [
+    "Пишите цену.",
+    "Жду предложений."
+   ]
+  },
+  "urgency": {
+   "az": {
+    "Low": [
+     "Tələsmirəm.",
+     "Vaxt var, tələsik deyil."
+    ],
+    "Normal": [],
+    "Urgent": [
+     "Təcili lazımdır.",
+     "Bu gün gəlsəniz çox yaxşı olar."
+    ],
+    "Emergency": [
+     "ÇOX TƏCİLİDİR, dərhal gəlin!",
+     "Vəziyyət təhlükəlidir, ən qısa zamanda usta lazımdır."
+    ]
+   },
+   "ru": {
+    "Low": [
+     "Не спешу."
+    ],
+    "Normal": [],
+    "Urgent": [
+     "Срочно нужно."
+    ],
+    "Emergency": [
+     "ОЧЕНЬ СРОЧНО, приезжайте сейчас!"
+    ]
+   }
+  }
+ },
+ "vague": {
+  "az": {
+   "titles": [
+    "Usta lazımdır",
+    "Kömək lazımdır",
+    "Təmir"
+   ],
+   "sentences": [
+    "Kömək lazımdır.",
+    "Usta lazımdır, şəkildə görünür.",
+    "Problem şəkildədir, baxın.",
+    "Bir şey xarab olub, baxmaq lazımdır.",
+    "Salam, usta lazımdır.",
+    "Şəkli göndərirəm, qiymət deyin."
+   ]
+  },
+  "ru": {
+   "titles": [
+    "Нужен мастер",
+    "Помощь"
+   ],
+   "sentences": [
+    "Нужна помощь, фото приложил.",
+    "Мастер нужен, смотрите фото.",
+    "Что-то сломалось, посмотрите."
+   ]
+  }
+ },
+ "geo": {
+  "Bakı": [
+   "Nərimanov",
+   "Nəsimi",
+   "Yasamal",
+   "Nizami",
+   "Binəqədi",
+   "Sabunçu",
+   "Xətai",
+   "Səbail",
+   "Suraxanı",
+   "Xəzər",
+   "Qaradağ",
+   "Pirallahı"
+  ],
+  "Sumqayıt": [
+   "Mərkəz",
+   "9-cu mikrorayon"
+  ],
+  "Gəncə": [
+   "Kəpəz",
+   "Nizami"
+  ]
+ },
+ "geo_city_weights": {
+  "Bakı": 0.84,
+  "Sumqayıt": 0.1,
+  "Gəncə": 0.06
+ },
+ "split": {
+  "test_az_bundle_index": 4,
+  "test_ru_bundle_index": 1
+ }
+}

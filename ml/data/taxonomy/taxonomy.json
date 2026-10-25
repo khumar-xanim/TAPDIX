@@ -1,0 +1,1453 @@
+{
+ "version": 1,
+ "currency": "AZN",
+ "categories": [
+  {
+   "slug": "plumbing",
+   "name_en": "Plumbing",
+   "name_az": "Santexnika",
+   "name_ru": "Сантехника",
+   "description_az": "Santexnik, su və boru təmiri",
+   "skills": [
+    {
+     "code": "faucet_repair",
+     "name_en": "Faucet Repair",
+     "name_az": "Kran təmiri"
+    },
+    {
+     "code": "faucet_replacement",
+     "name_en": "Faucet Replacement",
+     "name_az": "Kranın dəyişdirilməsi"
+    },
+    {
+     "code": "pipe_repair",
+     "name_en": "Pipe Repair",
+     "name_az": "Boru təmiri"
+    },
+    {
+     "code": "drain_unclogging",
+     "name_en": "Drain Unclogging",
+     "name_az": "Kanalizasiyanın təmizlənməsi"
+    },
+    {
+     "code": "toilet_repair",
+     "name_en": "Toilet Repair",
+     "name_az": "Unitaz təmiri"
+    },
+    {
+     "code": "water_heater_installation",
+     "name_en": "Water Heater Installation",
+     "name_az": "Su qızdırıcısının quraşdırılması"
+    },
+    {
+     "code": "water_heater_repair",
+     "name_en": "Water Heater Repair",
+     "name_az": "Su qızdırıcısının təmiri"
+    },
+    {
+     "code": "sink_installation",
+     "name_en": "Sink Installation",
+     "name_az": "Çanaq quraşdırılması"
+    },
+    {
+     "code": "water_pressure_fix",
+     "name_en": "Water Pressure Fix",
+     "name_az": "Su təzyiqinin tənzimlənməsi"
+    }
+   ],
+   "problem_types": [
+    {
+     "code": "faucet_leak",
+     "name_en": "Leaking faucet",
+     "name_az": "Kran su axıdır",
+     "skills": [
+      "faucet_repair",
+      "faucet_replacement"
+     ],
+     "price_azn": [
+      15,
+      60
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "clogged_drain",
+     "name_en": "Clogged sink or drain",
+     "name_az": "Çanaq/kanalizasiya tutulub",
+     "skills": [
+      "drain_unclogging"
+     ],
+     "price_azn": [
+      20,
+      80
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "pipe_leak",
+     "name_en": "Leaking or burst pipe",
+     "name_az": "Boru sızdırır/partlayıb",
+     "skills": [
+      "pipe_repair"
+     ],
+     "price_azn": [
+      30,
+      150
+     ],
+     "urgency_probs": {
+      "Low": 0.02,
+      "Normal": 0.18,
+      "Urgent": 0.45,
+      "Emergency": 0.35
+     },
+     "risk_flags": [
+      "water_damage"
+     ]
+    },
+    {
+     "code": "toilet_problem",
+     "name_en": "Toilet problem",
+     "name_az": "Unitaz problemi",
+     "skills": [
+      "toilet_repair",
+      "drain_unclogging"
+     ],
+     "price_azn": [
+      25,
+      90
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "water_heater_issue",
+     "name_en": "Water heater issue",
+     "name_az": "Su qızdırıcısı (boyler) problemi",
+     "skills": [
+      "water_heater_repair",
+      "water_heater_installation"
+     ],
+     "price_azn": [
+      30,
+      120
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "low_water_pressure",
+     "name_en": "Low water pressure",
+     "name_az": "Suyun təzyiqi zəifdir",
+     "skills": [
+      "water_pressure_fix",
+      "pipe_repair"
+     ],
+     "price_azn": [
+      25,
+      100
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "sink_installation",
+     "name_en": "Sink or mixer installation",
+     "name_az": "Çanaq/qarışdırıcı quraşdırılması",
+     "skills": [
+      "sink_installation",
+      "faucet_replacement"
+     ],
+     "price_azn": [
+      30,
+      100
+     ],
+     "urgency_probs": {
+      "Low": 0.2,
+      "Normal": 0.6,
+      "Urgent": 0.2,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    }
+   ]
+  },
+  {
+   "slug": "electrical",
+   "name_en": "Electrical Services",
+   "name_az": "Elektrik xidmətləri",
+   "name_ru": "Электрика",
+   "description_az": "Elektrikçi: rozetka, naqil, şit, işıqlandırma",
+   "skills": [
+    {
+     "code": "socket_repair",
+     "name_en": "Socket Repair",
+     "name_az": "Rozetka təmiri"
+    },
+    {
+     "code": "lighting_installation",
+     "name_en": "Lighting Installation",
+     "name_az": "İşıqlandırma quraşdırılması"
+    },
+    {
+     "code": "breaker_panel_service",
+     "name_en": "Breaker Panel Service",
+     "name_az": "Elektrik şitinin xidməti"
+    },
+    {
+     "code": "wiring_repair",
+     "name_en": "Wiring Repair",
+     "name_az": "Naqil təmiri və çəkilişi"
+    },
+    {
+     "code": "power_outage_diagnosis",
+     "name_en": "Power Outage Diagnosis",
+     "name_az": "İşığın getməsinin diaqnostikası"
+    },
+    {
+     "code": "switch_repair",
+     "name_en": "Switch Repair",
+     "name_az": "Açar təmiri"
+    }
+   ],
+   "problem_types": [
+    {
+     "code": "power_outage",
+     "name_en": "Power outage in flat",
+     "name_az": "Mənzildə işıq yoxdur",
+     "skills": [
+      "power_outage_diagnosis",
+      "breaker_panel_service"
+     ],
+     "price_azn": [
+      30,
+      120
+     ],
+     "urgency_probs": {
+      "Low": 0.02,
+      "Normal": 0.28,
+      "Urgent": 0.45,
+      "Emergency": 0.25
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "socket_not_working",
+     "name_en": "Socket not working or sparking",
+     "name_az": "Rozetka işləmir",
+     "skills": [
+      "socket_repair"
+     ],
+     "price_azn": [
+      10,
+      40
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": [
+      "electric_shock"
+     ]
+    },
+    {
+     "code": "light_installation",
+     "name_en": "Light or chandelier installation",
+     "name_az": "İşıq/lüstr quraşdırılması",
+     "skills": [
+      "lighting_installation"
+     ],
+     "price_azn": [
+      15,
+      60
+     ],
+     "urgency_probs": {
+      "Low": 0.25,
+      "Normal": 0.6,
+      "Urgent": 0.15,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "breaker_trips",
+     "name_en": "Breaker keeps tripping",
+     "name_az": "Avtomat tez-tez atır",
+     "skills": [
+      "breaker_panel_service"
+     ],
+     "price_azn": [
+      20,
+      90
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "wiring_replacement",
+     "name_en": "Wiring replacement",
+     "name_az": "Naqillərin dəyişdirilməsi",
+     "skills": [
+      "wiring_repair"
+     ],
+     "price_azn": [
+      80,
+      600
+     ],
+     "urgency_probs": {
+      "Low": 0.3,
+      "Normal": 0.55,
+      "Urgent": 0.15,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "switch_problem",
+     "name_en": "Switch problem",
+     "name_az": "Açar problemi",
+     "skills": [
+      "switch_repair",
+      "socket_repair"
+     ],
+     "price_azn": [
+      10,
+      35
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "burning_smell_short_circuit",
+     "name_en": "Burning smell or short circuit",
+     "name_az": "Yanıq iyi / qısa qapanma",
+     "skills": [
+      "wiring_repair",
+      "power_outage_diagnosis"
+     ],
+     "price_azn": [
+      40,
+      200
+     ],
+     "urgency_probs": {
+      "Low": 0,
+      "Normal": 0.02,
+      "Urgent": 0.28,
+      "Emergency": 0.7
+     },
+     "risk_flags": [
+      "fire_risk",
+      "electric_shock"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "locksmith",
+   "name_en": "Locksmith Services",
+   "name_az": "Kilid ustası",
+   "name_ru": "Вскрытие и замки",
+   "description_az": "Qapı açan, kilid ustası",
+   "skills": [
+    {
+     "code": "emergency_lockout",
+     "name_en": "Emergency Lockout",
+     "name_az": "Qapının açılması"
+    },
+    {
+     "code": "lock_replacement",
+     "name_en": "Lock Replacement",
+     "name_az": "Kilidin dəyişdirilməsi"
+    },
+    {
+     "code": "key_duplication",
+     "name_en": "Key Duplication",
+     "name_az": "Açar surəti"
+    },
+    {
+     "code": "lock_repair",
+     "name_en": "Lock Repair",
+     "name_az": "Kilid təmiri"
+    },
+    {
+     "code": "door_hardware_installation",
+     "name_en": "Door Hardware Installation",
+     "name_az": "Qapı dəstəyi və kilid quraşdırılması"
+    },
+    {
+     "code": "automotive_lockout",
+     "name_en": "Automotive Lockout",
+     "name_az": "Avtomobil qapısının açılması"
+    }
+   ],
+   "problem_types": [
+    {
+     "code": "locked_out",
+     "name_en": "Locked out of home",
+     "name_az": "Qapı bağlı qalıb",
+     "skills": [
+      "emergency_lockout"
+     ],
+     "price_azn": [
+      20,
+      60
+     ],
+     "urgency_probs": {
+      "Low": 0,
+      "Normal": 0.1,
+      "Urgent": 0.5,
+      "Emergency": 0.4
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "lost_keys_rekey",
+     "name_en": "Lost keys / re-key lock",
+     "name_az": "Açar itib, kilid dəyişmək",
+     "skills": [
+      "lock_replacement"
+     ],
+     "price_azn": [
+      30,
+      90
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "jammed_lock",
+     "name_en": "Jammed or stuck lock",
+     "name_az": "Kilid tutub",
+     "skills": [
+      "lock_repair"
+     ],
+     "price_azn": [
+      20,
+      70
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "lock_installation",
+     "name_en": "Lock installation",
+     "name_az": "Kilid quraşdırılması",
+     "skills": [
+      "lock_replacement",
+      "door_hardware_installation"
+     ],
+     "price_azn": [
+      30,
+      120
+     ],
+     "urgency_probs": {
+      "Low": 0.25,
+      "Normal": 0.6,
+      "Urgent": 0.15,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "key_duplication",
+     "name_en": "Key duplication",
+     "name_az": "Açar surəti",
+     "skills": [
+      "key_duplication"
+     ],
+     "price_azn": [
+      3,
+      15
+     ],
+     "urgency_probs": {
+      "Low": 0.3,
+      "Normal": 0.6,
+      "Urgent": 0.1,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "door_handle_issue",
+     "name_en": "Broken door handle",
+     "name_az": "Qapı dəstəyi problemi",
+     "skills": [
+      "door_hardware_installation"
+     ],
+     "price_azn": [
+      10,
+      40
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "car_lockout",
+     "name_en": "Locked out of car",
+     "name_az": "Maşının qapısı bağlı qalıb",
+     "skills": [
+      "automotive_lockout"
+     ],
+     "price_azn": [
+      30,
+      80
+     ],
+     "urgency_probs": {
+      "Low": 0,
+      "Normal": 0.1,
+      "Urgent": 0.5,
+      "Emergency": 0.4
+     },
+     "risk_flags": []
+    }
+   ]
+  },
+  {
+   "slug": "appliance_repair",
+   "name_en": "Appliance Repair",
+   "name_az": "Məişət texnikası təmiri",
+   "name_ru": "Ремонт бытовой техники",
+   "description_az": "Paltaryuyan, soyuducu, qabyuyan və digər məişət cihazları",
+   "skills": [
+    {
+     "code": "washing_machine_repair",
+     "name_en": "Washing Machine Repair",
+     "name_az": "Paltaryuyan təmiri"
+    },
+    {
+     "code": "refrigerator_repair",
+     "name_en": "Refrigerator Repair",
+     "name_az": "Soyuducu təmiri"
+    },
+    {
+     "code": "dishwasher_repair",
+     "name_en": "Dishwasher Repair",
+     "name_az": "Qabyuyan təmiri"
+    },
+    {
+     "code": "oven_stove_repair",
+     "name_en": "Oven and Stove Repair",
+     "name_az": "Plita və duxovka təmiri"
+    },
+    {
+     "code": "microwave_repair",
+     "name_en": "Microwave Repair",
+     "name_az": "Mikrodalğalı soba təmiri"
+    },
+    {
+     "code": "vacuum_cleaner_repair",
+     "name_en": "Vacuum Cleaner Repair",
+     "name_az": "Tozsoran təmiri"
+    }
+   ],
+   "problem_types": [
+    {
+     "code": "washer_not_draining",
+     "name_en": "Washer not draining",
+     "name_az": "Paltaryuyan su boşaltmır",
+     "skills": [
+      "washing_machine_repair"
+     ],
+     "price_azn": [
+      25,
+      80
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "washer_not_spinning_noise",
+     "name_en": "Washer not spinning or noisy",
+     "name_az": "Paltaryuyan sıxmır/səs salır",
+     "skills": [
+      "washing_machine_repair"
+     ],
+     "price_azn": [
+      30,
+      100
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "fridge_not_cooling",
+     "name_en": "Fridge not cooling",
+     "name_az": "Soyuducu soyutmur",
+     "skills": [
+      "refrigerator_repair"
+     ],
+     "price_azn": [
+      40,
+      150
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "fridge_leaking_noisy",
+     "name_en": "Fridge leaking or noisy",
+     "name_az": "Soyuducu su axıdır/səs salır",
+     "skills": [
+      "refrigerator_repair"
+     ],
+     "price_azn": [
+      30,
+      100
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "dishwasher_issue",
+     "name_en": "Dishwasher issue",
+     "name_az": "Qabyuyan problemi",
+     "skills": [
+      "dishwasher_repair"
+     ],
+     "price_azn": [
+      30,
+      110
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "oven_stove_issue",
+     "name_en": "Oven or stove issue",
+     "name_az": "Plita/duxovka problemi",
+     "skills": [
+      "oven_stove_repair"
+     ],
+     "price_azn": [
+      25,
+      100
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": [
+      "gas_safety"
+     ]
+    },
+    {
+     "code": "small_appliance",
+     "name_en": "Small appliance repair",
+     "name_az": "Kiçik məişət cihazının təmiri",
+     "skills": [
+      "microwave_repair",
+      "vacuum_cleaner_repair"
+     ],
+     "price_azn": [
+      10,
+      60
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    }
+   ]
+  },
+  {
+   "slug": "automotive_repair",
+   "name_en": "Automotive Repair",
+   "name_az": "Avtomobil təmiri",
+   "name_ru": "Авторемонт",
+   "description_az": "Avtomobil mexaniki, avtoelektrik",
+   "skills": [
+    {
+     "code": "engine_diagnostics",
+     "name_en": "Engine Diagnostics",
+     "name_az": "Mühərrikin diaqnostikası"
+    },
+    {
+     "code": "battery_starter_service",
+     "name_en": "Battery and Starter Service",
+     "name_az": "Akkumulyator və starter xidməti"
+    },
+    {
+     "code": "brake_service",
+     "name_en": "Brake Service",
+     "name_az": "Əyləc sisteminin xidməti"
+    },
+    {
+     "code": "suspension_repair",
+     "name_en": "Suspension Repair",
+     "name_az": "Podveska təmiri"
+    },
+    {
+     "code": "oil_change_service",
+     "name_en": "Oil and Filter Service",
+     "name_az": "Yağ və filtr dəyişdirilməsi"
+    },
+    {
+     "code": "auto_electrical_repair",
+     "name_en": "Auto Electrical Repair",
+     "name_az": "Avtoelektrik təmiri"
+    },
+    {
+     "code": "tire_service",
+     "name_en": "Tire Service",
+     "name_az": "Təkər xidməti"
+    }
+   ],
+   "problem_types": [
+    {
+     "code": "wont_start",
+     "name_en": "Car will not start",
+     "name_az": "Maşın işə düşmür",
+     "skills": [
+      "battery_starter_service",
+      "auto_electrical_repair"
+     ],
+     "price_azn": [
+      30,
+      120
+     ],
+     "urgency_probs": {
+      "Low": 0.02,
+      "Normal": 0.28,
+      "Urgent": 0.5,
+      "Emergency": 0.2
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "brake_noise_problem",
+     "name_en": "Brake noise or weak brakes",
+     "name_az": "Əyləc problemi",
+     "skills": [
+      "brake_service"
+     ],
+     "price_azn": [
+      40,
+      200
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": [
+      "vehicle_safety"
+     ]
+    },
+    {
+     "code": "check_engine_diagnostics",
+     "name_en": "Check-engine light / diagnostics",
+     "name_az": "Mühərrik diaqnostikası",
+     "skills": [
+      "engine_diagnostics"
+     ],
+     "price_azn": [
+      20,
+      80
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "oil_service",
+     "name_en": "Oil and filter service",
+     "name_az": "Yağ və filtr servisi",
+     "skills": [
+      "oil_change_service"
+     ],
+     "price_azn": [
+      30,
+      100
+     ],
+     "urgency_probs": {
+      "Low": 0.3,
+      "Normal": 0.6,
+      "Urgent": 0.1,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "suspension_noise",
+     "name_en": "Suspension noise",
+     "name_az": "Podveska səsi",
+     "skills": [
+      "suspension_repair"
+     ],
+     "price_azn": [
+      40,
+      250
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "car_electrical_fault",
+     "name_en": "Car electrical fault",
+     "name_az": "Avtoelektrik nasazlığı",
+     "skills": [
+      "auto_electrical_repair"
+     ],
+     "price_azn": [
+      25,
+      150
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "flat_tire_tire_service",
+     "name_en": "Flat tire or tire service",
+     "name_az": "Təkər xidməti",
+     "skills": [
+      "tire_service"
+     ],
+     "price_azn": [
+      10,
+      60
+     ],
+     "urgency_probs": {
+      "Low": 0.02,
+      "Normal": 0.28,
+      "Urgent": 0.5,
+      "Emergency": 0.2
+     },
+     "risk_flags": []
+    }
+   ]
+  },
+  {
+   "slug": "electronics_repair",
+   "name_en": "Electronics Repair",
+   "name_az": "Elektronika təmiri",
+   "name_ru": "Ремонт электроники",
+   "description_az": "Telefon, noutbuk, televizor və digər elektron cihazların təmiri",
+   "skills": [
+    {
+     "code": "phone_screen_repair",
+     "name_en": "Phone Screen Repair",
+     "name_az": "Telefon ekranının təmiri"
+    },
+    {
+     "code": "phone_battery_port_repair",
+     "name_en": "Phone Battery and Port Repair",
+     "name_az": "Telefon batareya və şarj yuvası təmiri"
+    },
+    {
+     "code": "laptop_repair",
+     "name_en": "Laptop Hardware Repair",
+     "name_az": "Noutbuk aparat təmiri"
+    },
+    {
+     "code": "laptop_software_service",
+     "name_en": "Laptop Software Service",
+     "name_az": "Noutbuk proqram xidməti"
+    },
+    {
+     "code": "tv_repair",
+     "name_en": "TV Repair",
+     "name_az": "Televizor təmiri"
+    },
+    {
+     "code": "liquid_damage_repair",
+     "name_en": "Liquid Damage Repair",
+     "name_az": "Suya düşmüş cihazın təmiri"
+    },
+    {
+     "code": "tablet_console_repair",
+     "name_en": "Tablet and Console Repair",
+     "name_az": "Planşet və konsol təmiri"
+    }
+   ],
+   "problem_types": [
+    {
+     "code": "phone_cracked_screen",
+     "name_en": "Cracked phone screen",
+     "name_az": "Telefon ekranı sınıb",
+     "skills": [
+      "phone_screen_repair"
+     ],
+     "price_azn": [
+      30,
+      250
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "phone_not_charging",
+     "name_en": "Phone not charging",
+     "name_az": "Telefon şarj olmur",
+     "skills": [
+      "phone_battery_port_repair"
+     ],
+     "price_azn": [
+      15,
+      80
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "laptop_wont_boot",
+     "name_en": "Laptop will not boot",
+     "name_az": "Noutbuk açılmır",
+     "skills": [
+      "laptop_repair"
+     ],
+     "price_azn": [
+      30,
+      150
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "laptop_slow_software",
+     "name_en": "Slow laptop / software issue",
+     "name_az": "Noutbuk yavaş işləyir",
+     "skills": [
+      "laptop_software_service"
+     ],
+     "price_azn": [
+      15,
+      50
+     ],
+     "urgency_probs": {
+      "Low": 0.2,
+      "Normal": 0.6,
+      "Urgent": 0.2,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "tv_no_picture",
+     "name_en": "TV no picture or sound",
+     "name_az": "Televizor görüntü vermir",
+     "skills": [
+      "tv_repair"
+     ],
+     "price_azn": [
+      30,
+      200
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "water_damaged_device",
+     "name_en": "Water-damaged device",
+     "name_az": "Suya düşmüş cihaz",
+     "skills": [
+      "liquid_damage_repair"
+     ],
+     "price_azn": [
+      40,
+      200
+     ],
+     "urgency_probs": {
+      "Low": 0.02,
+      "Normal": 0.38,
+      "Urgent": 0.45,
+      "Emergency": 0.15
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "console_tablet_issue",
+     "name_en": "Console or tablet issue",
+     "name_az": "Konsol/planşet problemi",
+     "skills": [
+      "tablet_console_repair"
+     ],
+     "price_azn": [
+      25,
+      120
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    }
+   ]
+  },
+  {
+   "slug": "painting_renovation",
+   "name_en": "Painting & Renovation",
+   "name_az": "Rəngsazlıq və təmir",
+   "name_ru": "Покраска и ремонт",
+   "description_az": "Rəngsazlıq və təmir işləri",
+   "skills": [
+    {
+     "code": "wall_painting",
+     "name_en": "Wall Painting",
+     "name_az": "Divar boyaması"
+    },
+    {
+     "code": "wallpaper_installation",
+     "name_en": "Wallpaper Installation",
+     "name_az": "Divar kağızı yapışdırılması"
+    },
+    {
+     "code": "plastering_putty",
+     "name_en": "Plastering and Putty",
+     "name_az": "Suvaq və şpaklyovka"
+    },
+    {
+     "code": "tiling",
+     "name_en": "Tiling",
+     "name_az": "Kafel-plitka döşənməsi"
+    },
+    {
+     "code": "flooring_installation",
+     "name_en": "Flooring Installation",
+     "name_az": "Döşəmə örtüyünün quraşdırılması"
+    },
+    {
+     "code": "ceiling_work",
+     "name_en": "Ceiling Work",
+     "name_az": "Tavan işləri"
+    },
+    {
+     "code": "full_renovation",
+     "name_en": "Full Renovation",
+     "name_az": "Əsaslı təmir"
+    }
+   ],
+   "problem_types": [
+    {
+     "code": "wall_painting_job",
+     "name_en": "Wall painting",
+     "name_az": "Divar boyaması",
+     "skills": [
+      "wall_painting"
+     ],
+     "price_azn": [
+      80,
+      600
+     ],
+     "urgency_probs": {
+      "Low": 0.4,
+      "Normal": 0.5,
+      "Urgent": 0.1,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "wallpaper_job",
+     "name_en": "Wallpaper installation",
+     "name_az": "Divar kağızı",
+     "skills": [
+      "wallpaper_installation"
+     ],
+     "price_azn": [
+      60,
+      500
+     ],
+     "urgency_probs": {
+      "Low": 0.4,
+      "Normal": 0.5,
+      "Urgent": 0.1,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "plaster_putty_job",
+     "name_en": "Plastering / putty",
+     "name_az": "Suvaq və şpaklyovka",
+     "skills": [
+      "plastering_putty"
+     ],
+     "price_azn": [
+      100,
+      900
+     ],
+     "urgency_probs": {
+      "Low": 0.4,
+      "Normal": 0.5,
+      "Urgent": 0.1,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "tiling_job",
+     "name_en": "Tiling",
+     "name_az": "Kafel-plitka işləri",
+     "skills": [
+      "tiling"
+     ],
+     "price_azn": [
+      150,
+      1200
+     ],
+     "urgency_probs": {
+      "Low": 0.4,
+      "Normal": 0.5,
+      "Urgent": 0.1,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "flooring_job",
+     "name_en": "Flooring (laminate, parquet)",
+     "name_az": "Laminat / döşəmə",
+     "skills": [
+      "flooring_installation"
+     ],
+     "price_azn": [
+      100,
+      900
+     ],
+     "urgency_probs": {
+      "Low": 0.4,
+      "Normal": 0.5,
+      "Urgent": 0.1,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "ceiling_work",
+     "name_en": "Ceiling work",
+     "name_az": "Tavan işləri",
+     "skills": [
+      "ceiling_work"
+     ],
+     "price_azn": [
+      100,
+      1000
+     ],
+     "urgency_probs": {
+      "Low": 0.4,
+      "Normal": 0.5,
+      "Urgent": 0.1,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "full_renovation",
+     "name_en": "Full renovation",
+     "name_az": "Əsaslı / kosmetik təmir",
+     "skills": [
+      "full_renovation"
+     ],
+     "price_azn": [
+      300,
+      5000
+     ],
+     "urgency_probs": {
+      "Low": 0.45,
+      "Normal": 0.5,
+      "Urgent": 0.05,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    }
+   ]
+  },
+  {
+   "slug": "hvac_services",
+   "name_en": "HVAC Services",
+   "name_az": "İsitmə, havalandırma və kondisioner",
+   "name_ru": "Отопление, вентиляция, кондиционеры",
+   "description_az": "İsitmə, havalandırma və kondisioner sistemləri",
+   "skills": [
+    {
+     "code": "ac_repair",
+     "name_en": "AC Repair",
+     "name_az": "Kondisioner təmiri"
+    },
+    {
+     "code": "ac_installation",
+     "name_en": "AC Installation",
+     "name_az": "Kondisioner quraşdırılması"
+    },
+    {
+     "code": "ac_cleaning_service",
+     "name_en": "AC Cleaning and Gas Refill",
+     "name_az": "Kondisioner təmizliyi və freon"
+    },
+    {
+     "code": "heating_radiator_service",
+     "name_en": "Heating and Radiator Service",
+     "name_az": "İsitmə və radiator xidməti"
+    },
+    {
+     "code": "boiler_combi_service",
+     "name_en": "Boiler and Combi Service",
+     "name_az": "Kombi və qazan xidməti"
+    },
+    {
+     "code": "ventilation_service",
+     "name_en": "Ventilation Service",
+     "name_az": "Havalandırma xidməti"
+    }
+   ],
+   "problem_types": [
+    {
+     "code": "ac_not_cooling",
+     "name_en": "AC not cooling",
+     "name_az": "Kondisioner soyutmur",
+     "skills": [
+      "ac_repair",
+      "ac_cleaning_service"
+     ],
+     "price_azn": [
+      30,
+      150
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "ac_water_leak",
+     "name_en": "AC leaking water",
+     "name_az": "Kondisioner su damır",
+     "skills": [
+      "ac_repair"
+     ],
+     "price_azn": [
+      25,
+      100
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "ac_installation",
+     "name_en": "AC installation / relocation",
+     "name_az": "Kondisioner quraşdırılması",
+     "skills": [
+      "ac_installation"
+     ],
+     "price_azn": [
+      60,
+      250
+     ],
+     "urgency_probs": {
+      "Low": 0.2,
+      "Normal": 0.6,
+      "Urgent": 0.2,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "ac_cleaning_gas",
+     "name_en": "AC cleaning / gas refill",
+     "name_az": "Kondisioner təmizliyi / freon",
+     "skills": [
+      "ac_cleaning_service"
+     ],
+     "price_azn": [
+      25,
+      100
+     ],
+     "urgency_probs": {
+      "Low": 0.3,
+      "Normal": 0.6,
+      "Urgent": 0.1,
+      "Emergency": 0
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "radiator_not_heating",
+     "name_en": "Radiator not heating",
+     "name_az": "Radiator isinmir",
+     "skills": [
+      "heating_radiator_service"
+     ],
+     "price_azn": [
+      25,
+      120
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    },
+    {
+     "code": "boiler_combi_error",
+     "name_en": "Boiler / combi error",
+     "name_az": "Kombi xəta verir",
+     "skills": [
+      "boiler_combi_service"
+     ],
+     "price_azn": [
+      40,
+      200
+     ],
+     "urgency_probs": {
+      "Low": 0.02,
+      "Normal": 0.38,
+      "Urgent": 0.4,
+      "Emergency": 0.2
+     },
+     "risk_flags": [
+      "gas_safety"
+     ]
+    },
+    {
+     "code": "ventilation_issue",
+     "name_en": "Ventilation issue",
+     "name_az": "Havalandırma problemi",
+     "skills": [
+      "ventilation_service"
+     ],
+     "price_azn": [
+      20,
+      100
+     ],
+     "urgency_probs": {
+      "Low": 0.15,
+      "Normal": 0.55,
+      "Urgent": 0.25,
+      "Emergency": 0.05
+     },
+     "risk_flags": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,560 @@
+{
+ "version": 1,
+ "note": "Written independently of the phrase bank; never used for training.",
+ "clear": [
+  {
+   "text": "salam, metbexde kran damir, deyisdirmek lazimdi",
+   "category": "plumbing",
+   "problem_type": "faucet_leak",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Vannada kranin altindan su gelir, usta gelsin zehmet olmasa",
+   "category": "plumbing",
+   "problem_type": "faucet_leak",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Əl yuyan çanaq tutub, su getmir. Usta lazımdır",
+   "category": "plumbing",
+   "problem_type": "clogged_drain",
+   "style": "informal"
+  },
+  {
+   "text": "Qonşuya su axır, mənim vannadakı boru sızdırır, təcili!",
+   "category": "plumbing",
+   "problem_type": "pipe_leak",
+   "style": "informal"
+  },
+  {
+   "text": "unitazin cəni su yigir ve dayanmir",
+   "category": "plumbing",
+   "problem_type": "toilet_problem",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Boylerim istilik vermir, 2 gündür su soyuqdur",
+   "category": "plumbing",
+   "problem_type": "water_heater_issue",
+   "style": "informal"
+  },
+  {
+   "text": "Duşda su çox zəif gəlir, 5-ci mərtəbədəyəm",
+   "category": "plumbing",
+   "problem_type": "low_water_pressure",
+   "style": "informal"
+  },
+  {
+   "text": "Yeni rakovina aldım, qoşmaq lazımdır, ünvan Yasamal",
+   "category": "plumbing",
+   "problem_type": "sink_installation",
+   "style": "informal"
+  },
+  {
+   "text": "Течёт труба под ванной, затопило пол. Помогите!",
+   "category": "plumbing",
+   "problem_type": "pipe_leak",
+   "style": "russian"
+  },
+  {
+   "text": "засор на кухне, вода не уходит, район Ясамал",
+   "category": "plumbing",
+   "problem_type": "clogged_drain",
+   "style": "russian"
+  },
+  {
+   "text": "isiq getib evde, avtomat atib qaldirmaq olmur",
+   "category": "electrical",
+   "problem_type": "power_outage",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Yataq otağında rozetka işləmir, dəyişmək lazımdır",
+   "category": "electrical",
+   "problem_type": "socket_not_working",
+   "style": "informal"
+  },
+  {
+   "text": "rozetkadan qığılcım çıxdı, qorxuram, təcili baxın",
+   "category": "electrical",
+   "problem_type": "socket_not_working",
+   "style": "informal"
+  },
+  {
+   "text": "3 ədəd lüstr asmaq lazımdır, yeni mənzildir",
+   "category": "electrical",
+   "problem_type": "light_installation",
+   "style": "informal"
+  },
+  {
+   "text": "çaydan qoşanda avtomat atır, şiti yoxlayın",
+   "category": "electrical",
+   "problem_type": "breaker_trips",
+   "style": "informal"
+  },
+  {
+   "text": "Evdə naqillər köhnədir, hamısını dəyişdirmək istəyirəm",
+   "category": "electrical",
+   "problem_type": "wiring_replacement",
+   "style": "informal"
+  },
+  {
+   "text": "Açar basanda işıq yanmır, dəyişmək lazımdır",
+   "category": "electrical",
+   "problem_type": "switch_problem",
+   "style": "informal"
+  },
+  {
+   "text": "Divardan yanıq iyi gəlir, işıq da titrəyir",
+   "category": "electrical",
+   "problem_type": "burning_smell_short_circuit",
+   "style": "informal"
+  },
+  {
+   "text": "Нет света в зале, автомат не включается",
+   "category": "electrical",
+   "problem_type": "power_outage",
+   "style": "russian"
+  },
+  {
+   "text": "нужно подключить люстру и бра, Наримановский район",
+   "category": "electrical",
+   "problem_type": "light_installation",
+   "style": "russian"
+  },
+  {
+   "text": "qapi baglanib acar icerdedi, tecili acin",
+   "category": "locksmith",
+   "problem_type": "locked_out",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Evə girə bilmirəm, açarı unutmuşam içəridə",
+   "category": "locksmith",
+   "problem_type": "locked_out",
+   "style": "informal"
+  },
+  {
+   "text": "acarlarim itib, kilidi deyismek lazimdi",
+   "category": "locksmith",
+   "problem_type": "lost_keys_rekey",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Açar kilidə girir amma çevrilmir",
+   "category": "locksmith",
+   "problem_type": "jammed_lock",
+   "style": "informal"
+  },
+  {
+   "text": "Giriş qapısına yeni kilid qoymaq istəyirəm",
+   "category": "locksmith",
+   "problem_type": "lock_installation",
+   "style": "informal"
+  },
+  {
+   "text": "acarin kopyasini cixarmaq lazimdir, 4 eded",
+   "category": "locksmith",
+   "problem_type": "key_duplication",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Otaq qapısının dəstəyi qırılıb",
+   "category": "locksmith",
+   "problem_type": "door_handle_issue",
+   "style": "informal"
+  },
+  {
+   "text": "Maşının qapısı bağlanıb, açar içəridə qalıb. Nərimanov",
+   "category": "locksmith",
+   "problem_type": "car_lockout",
+   "style": "informal"
+  },
+  {
+   "text": "Захлопнул дверь, ключи в квартире, помогите открыть",
+   "category": "locksmith",
+   "problem_type": "locked_out",
+   "style": "russian"
+  },
+  {
+   "text": "потерял ключи, нужно сменить замок",
+   "category": "locksmith",
+   "problem_type": "lost_keys_rekey",
+   "style": "russian"
+  },
+  {
+   "text": "Paltaryuyan su boşaltmır, içində su qalıb",
+   "category": "appliance_repair",
+   "problem_type": "washer_not_draining",
+   "style": "informal"
+  },
+  {
+   "text": "paltaryuyan sixmir, cox ses salir",
+   "category": "appliance_repair",
+   "problem_type": "washer_not_spinning_noise",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "soyuducu soyutmur, dondurucu isə işləyir",
+   "category": "appliance_repair",
+   "problem_type": "fridge_not_cooling",
+   "style": "informal"
+  },
+  {
+   "text": "Soyuducunun altından su axır",
+   "category": "appliance_repair",
+   "problem_type": "fridge_leaking_noisy",
+   "style": "informal"
+  },
+  {
+   "text": "qabyuyan masin islemir, xeta verir",
+   "category": "appliance_repair",
+   "problem_type": "dishwasher_issue",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Qaz plitənin sobası alışmır",
+   "category": "appliance_repair",
+   "problem_type": "oven_stove_issue",
+   "style": "informal"
+  },
+  {
+   "text": "Mikrodalğalı soba qızdırmır, baxın zəhmət olmasa",
+   "category": "appliance_repair",
+   "problem_type": "small_appliance",
+   "style": "informal"
+  },
+  {
+   "text": "Стиральная машина сильно гудит при отжиме",
+   "category": "appliance_repair",
+   "problem_type": "washer_not_spinning_noise",
+   "style": "russian"
+  },
+  {
+   "text": "Холодильник не морозит, нужен мастер",
+   "category": "appliance_repair",
+   "problem_type": "fridge_not_cooling",
+   "style": "russian"
+  },
+  {
+   "text": "Elektrik duxovka qızmır",
+   "category": "appliance_repair",
+   "problem_type": "oven_stove_issue",
+   "style": "short"
+  },
+  {
+   "text": "masin isə dusmur, akkumulyator oturub ola biler",
+   "category": "automotive_repair",
+   "problem_type": "wont_start",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Əyləc kolodkaları səs salır, dəyişmək lazımdır",
+   "category": "automotive_repair",
+   "problem_type": "brake_noise_problem",
+   "style": "informal"
+  },
+  {
+   "text": "Check engine yanır, diaqnostika lazımdır",
+   "category": "automotive_repair",
+   "problem_type": "check_engine_diagnostics",
+   "style": "informal"
+  },
+  {
+   "text": "yag deyismek lazimdi, filtrler ile birge",
+   "category": "automotive_repair",
+   "problem_type": "oil_service",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Maşın çuxurda döyünür, podveskaya baxın",
+   "category": "automotive_repair",
+   "problem_type": "suspension_noise",
+   "style": "informal"
+  },
+  {
+   "text": "Faralar yanmır, generator şarj vermir",
+   "category": "automotive_repair",
+   "problem_type": "car_electrical_fault",
+   "style": "informal"
+  },
+  {
+   "text": "təkər deşilib, yolda qalmışam",
+   "category": "automotive_repair",
+   "problem_type": "flat_tire_tire_service",
+   "style": "informal"
+  },
+  {
+   "text": "Не заводится, аккумулятор разряжен",
+   "category": "automotive_repair",
+   "problem_type": "wont_start",
+   "style": "russian"
+  },
+  {
+   "text": "Скрипят тормоза, нужна замена колодок на Камри",
+   "category": "automotive_repair",
+   "problem_type": "brake_noise_problem",
+   "style": "russian"
+  },
+  {
+   "text": "Замена масла и фильтров на Хёндай",
+   "category": "automotive_repair",
+   "problem_type": "oil_service",
+   "style": "russian"
+  },
+  {
+   "text": "telefonun ekrani sinib, deyismek lazimdi",
+   "category": "electronics_repair",
+   "problem_type": "phone_cracked_screen",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Telefon şarj olmur, bu gün lazımdır",
+   "category": "electronics_repair",
+   "problem_type": "phone_not_charging",
+   "style": "informal"
+  },
+  {
+   "text": "Noutbuk açılmır, işıq yanıb-sönür",
+   "category": "electronics_repair",
+   "problem_type": "laptop_wont_boot",
+   "style": "informal"
+  },
+  {
+   "text": "noutbuk cox yavas isleyir windows qurmaq lazimdi",
+   "category": "electronics_repair",
+   "problem_type": "laptop_slow_software",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Televizorda səs var, görüntü yoxdur",
+   "category": "electronics_repair",
+   "problem_type": "tv_no_picture",
+   "style": "informal"
+  },
+  {
+   "text": "Telefon suya düşüb, açılmır",
+   "category": "electronics_repair",
+   "problem_type": "water_damaged_device",
+   "style": "informal"
+  },
+  {
+   "text": "PlayStation disk oxumur və qızır",
+   "category": "electronics_repair",
+   "problem_type": "console_tablet_issue",
+   "style": "informal"
+  },
+  {
+   "text": "Разбил экран на айфоне, нужна замена",
+   "category": "electronics_repair",
+   "problem_type": "phone_cracked_screen",
+   "style": "russian"
+  },
+  {
+   "text": "Ноутбук тормозит, надо переустановить систему",
+   "category": "electronics_repair",
+   "problem_type": "laptop_slow_software",
+   "style": "russian"
+  },
+  {
+   "text": "Телевизор не включается, красная лампочка",
+   "category": "electronics_repair",
+   "problem_type": "tv_no_picture",
+   "style": "russian"
+  },
+  {
+   "text": "otaqlari rengletmek lazimdi, 2 otaq",
+   "category": "painting_renovation",
+   "problem_type": "wall_painting_job",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Qonaq otağına oboy yapışdırmaq lazımdır, 30 kv.m",
+   "category": "painting_renovation",
+   "problem_type": "wallpaper_job",
+   "style": "informal"
+  },
+  {
+   "text": "Divarları suvayıb şpaklyovka etmək lazımdır, rəngləmə ayrıdır",
+   "category": "painting_renovation",
+   "problem_type": "plaster_putty_job",
+   "style": "informal"
+  },
+  {
+   "text": "vanna otagina kafel dosemek lazimdi",
+   "category": "painting_renovation",
+   "problem_type": "tiling_job",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Laminat döşətmək istəyirəm, 20 kv.m",
+   "category": "painting_renovation",
+   "problem_type": "flooring_job",
+   "style": "informal"
+  },
+  {
+   "text": "Tavanda su ləkəsi var, təmir lazımdır",
+   "category": "painting_renovation",
+   "problem_type": "ceiling_work",
+   "style": "informal"
+  },
+  {
+   "text": "2 otaqlı mənzilin əsaslı təmiri",
+   "category": "painting_renovation",
+   "problem_type": "full_renovation",
+   "style": "informal"
+  },
+  {
+   "text": "Покрасить стены в спальне",
+   "category": "painting_renovation",
+   "problem_type": "wall_painting_job",
+   "style": "russian"
+  },
+  {
+   "text": "Положить плитку на кухне, около 12 кв.м",
+   "category": "painting_renovation",
+   "problem_type": "tiling_job",
+   "style": "russian"
+  },
+  {
+   "text": "Нужен ремонт под ключ в новостройке",
+   "category": "painting_renovation",
+   "problem_type": "full_renovation",
+   "style": "russian"
+  },
+  {
+   "text": "salam, kondisioner soyutmur ay usta",
+   "category": "hvac_services",
+   "problem_type": "ac_not_cooling",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Kondisionerdən otağa su damır",
+   "category": "hvac_services",
+   "problem_type": "ac_water_leak",
+   "style": "informal"
+  },
+  {
+   "text": "yeni kondisioner quraşdırmaq lazımdır, 18-lik",
+   "category": "hvac_services",
+   "problem_type": "ac_installation",
+   "style": "informal"
+  },
+  {
+   "text": "kondisionere freon doldurmaq ve temizlemek",
+   "category": "hvac_services",
+   "problem_type": "ac_cleaning_gas",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "radiator isinmir, ev soyuqdur",
+   "category": "hvac_services",
+   "problem_type": "radiator_not_heating",
+   "style": "no_diacritics"
+  },
+  {
+   "text": "Kombi xəta verir və yanmır",
+   "category": "hvac_services",
+   "problem_type": "boiler_combi_error",
+   "style": "informal"
+  },
+  {
+   "text": "Vannadakı ventilyator işləmir, səs də gəlmir",
+   "category": "hvac_services",
+   "problem_type": "ventilation_issue",
+   "style": "informal"
+  },
+  {
+   "text": "Кондиционер не охлаждает, горит индикатор",
+   "category": "hvac_services",
+   "problem_type": "ac_not_cooling",
+   "style": "russian"
+  },
+  {
+   "text": "Котёл выдаёт ошибку, не греет",
+   "category": "hvac_services",
+   "problem_type": "boiler_combi_error",
+   "style": "russian"
+  },
+  {
+   "text": "Установить кондиционер, 2 блока",
+   "category": "hvac_services",
+   "problem_type": "ac_installation",
+   "style": "russian"
+  }
+ ],
+ "vague": [
+  {
+   "text": "Kömək lazımdır",
+   "category": null,
+   "problem_type": null,
+   "style": "vague"
+  },
+  {
+   "text": "Salam, usta lazımdır",
+   "category": null,
+   "problem_type": null,
+   "style": "vague"
+  },
+  {
+   "text": "şəkildə görünür baxın",
+   "category": null,
+   "problem_type": null,
+   "style": "vague"
+  },
+  {
+   "text": "Problem var, baxmaq lazımdır",
+   "category": null,
+   "problem_type": null,
+   "style": "vague"
+  },
+  {
+   "text": "Nəsə xarab olub",
+   "category": null,
+   "problem_type": null,
+   "style": "vague"
+  },
+  {
+   "text": "Нужен мастер срочно, фото прикрепил",
+   "category": null,
+   "problem_type": null,
+   "style": "vague"
+  },
+  {
+   "text": "Usta axtarıram",
+   "category": null,
+   "problem_type": null,
+   "style": "vague"
+  },
+  {
+   "text": "Təmir lazımdır",
+   "category": null,
+   "problem_type": null,
+   "style": "vague"
+  },
+  {
+   "text": "Zəng edin, izah edərəm",
+   "category": null,
+   "problem_type": null,
+   "style": "vague"
+  },
+  {
+   "text": "Помогите пожалуйста",
+   "category": null,
+   "problem_type": null,
+   "style": "vague"
+  },
+  {
+   "text": "bax sekilde gorursen",
+   "category": null,
+   "problem_type": null,
+   "style": "vague"
+  },
+  {
+   "text": "Salam, qiymət neçəyədir?",
+   "category": null,
+   "problem_type": null,
+   "style": "vague"
+  }
+ ]
+}
