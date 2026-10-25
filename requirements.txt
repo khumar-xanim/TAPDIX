@@ -1,0 +1,34 @@
+# Tapdix — ML + API backend. Python 3.12 recommended (3.11–3.13 also resolve).
+# Install:  pip install -r requirements.txt
+# Pins verified to resolve together on 2026-10-23 (pyarrow held below 26 because mlflow requires it).
+
+# --- API ---
+fastapi==0.161.1
+uvicorn[standard]==0.54.0
+pydantic==2.14.1
+pydantic-settings==2.16.1
+python-dotenv==1.2.4
+httpx==0.28.1             # needed by huggingface_hub
+httpx2==2.16.0            # FastAPI TestClient (silences Starlette deprecation warning)
+
+# --- Data ---
+numpy==2.5.4
+pandas==3.1.0
+pyarrow==25.0.1
+faker==40.43.0            # synthetic Azerbaijani workers/jobs until real data exists
+
+# --- ML ---
+scikit-learn==1.9.1
+lightgbm==4.7.0           # LambdaRank for worker ranking
+sentence-transformers==6.2.0   # multilingual embeddings (e.g. multilingual-e5 / LaBSE)
+torch==2.14.1             # on Windows pip installs the CPU build
+joblib==1.6.0
+optuna==5.0.0             # hyper-parameter search
+shap==0.54.1              # model explanations ("why this worker")
+
+# --- Experiment tracking ---
+mlflow==3.17.2
+
+# --- Dev ---
+pytest==9.1.1
+ruff==0.17.2

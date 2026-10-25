@@ -1,0 +1,9 @@
+line-length = 100
+target-version = "py312"
+[lint]
+select = ["E", "F", "I", "B", "UP"]
+# E501 (line length) is left to `ruff format`: long Azerbaijani sentences, SQL and docstrings are fine.
+ignore = ["E501"]
+
+[lint.isort]
+known-first-party = ["app", "tapdix_ml"]

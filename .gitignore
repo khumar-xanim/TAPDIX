@@ -1,0 +1,102 @@
+# =====================================================================================
+# Tapdix .gitignore - read the SECRETS block before adding files to this repo
+# =====================================================================================
+
+# --- SECRETS & CREDENTIALS (never commit) ------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.kdbx
+secrets/
+.secrets/
+credentials*.json
+*-credentials.json
+service-account*.json
+*.token
+.npmrc
+.pgpass
+pgpass.conf
+.aws/
+.ssh/
+
+# --- DATABASE dumps / local databases (may contain real personal data) ---------------
+*.dump
+*.backup
+*.bak
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+
+# --- REAL DATA & PRIVATE MEDIA (consent + privacy: never in git) --------------------
+ml/data/raw/*
+!ml/data/raw/.gitkeep
+ml/data/processed/*
+!ml/data/processed/.gitkeep
+ml/data/external/
+ml/data/photos_index.csv
+# photos: keep the folder skeleton + README, never the images themselves
+ml/data/images/*/*/*
+!ml/data/images/*/*/.gitkeep
+ml/data/vision/annotations/
+
+# --- ML ARTEFACTS (rebuilt from code; large) ---------------------------------------
+ml/models/*
+!ml/models/.gitkeep
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.safetensors
+*.h5
+mlruns/
+mlartifacts/
+wandb/
+runs/
+lightning_logs/
+.ipynb_checkpoints/
+
+# --- PRIVATE LEGACY MATERIAL (UI prototype with fake logins, unknown-origin images) ---
+legacy/App.js
+legacy/App.home.js
+legacy/*.png
+legacy/*.jpg
+legacy/*.jpeg
+
+# --- Python --------------------------------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Node / web ----------------------------------------------------------------------
+node_modules/
+apps/web/dist/
+dist/
+*.log
+npm-debug.log*
+
+# --- Editors / OS --------------------------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
