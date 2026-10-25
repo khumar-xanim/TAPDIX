@@ -1,0 +1,183 @@
+{
+ "version": 1,
+ "note": "Proposed YOLO label set. 'objects' say WHAT is in the photo (-> category); 'defects' say WHAT IS WRONG (-> problem-type hints). Off-the-shelf COCO weights know only a few objects (sink, toilet, refrigerator, oven, microwave, tv, laptop, phone) and no defects, so a custom fine-tune on labelled photos is required.",
+ "objects": {
+  "faucet": {
+   "category": "plumbing"
+  },
+  "sink": {
+   "category": "plumbing"
+  },
+  "toilet": {
+   "category": "plumbing"
+  },
+  "pipe": {
+   "category": "plumbing"
+  },
+  "water_heater": {
+   "category": "plumbing"
+  },
+  "socket": {
+   "category": "electrical"
+  },
+  "light_switch": {
+   "category": "electrical"
+  },
+  "breaker_panel": {
+   "category": "electrical"
+  },
+  "light_fixture": {
+   "category": "electrical"
+  },
+  "wiring": {
+   "category": "electrical"
+  },
+  "door_lock": {
+   "category": "locksmith"
+  },
+  "door_handle": {
+   "category": "locksmith"
+  },
+  "key": {
+   "category": "locksmith"
+  },
+  "entrance_door": {
+   "category": "locksmith"
+  },
+  "washing_machine": {
+   "category": "appliance_repair"
+  },
+  "refrigerator": {
+   "category": "appliance_repair"
+  },
+  "oven_stove": {
+   "category": "appliance_repair"
+  },
+  "dishwasher": {
+   "category": "appliance_repair"
+  },
+  "microwave": {
+   "category": "appliance_repair"
+  },
+  "car_engine_bay": {
+   "category": "automotive_repair"
+  },
+  "car_battery": {
+   "category": "automotive_repair"
+  },
+  "brake_disc": {
+   "category": "automotive_repair"
+  },
+  "tire": {
+   "category": "automotive_repair"
+  },
+  "car_dashboard": {
+   "category": "automotive_repair"
+  },
+  "phone": {
+   "category": "electronics_repair"
+  },
+  "laptop": {
+   "category": "electronics_repair"
+  },
+  "tv": {
+   "category": "electronics_repair"
+  },
+  "game_console": {
+   "category": "electronics_repair"
+  },
+  "tablet": {
+   "category": "electronics_repair"
+  },
+  "wall": {
+   "category": "painting_renovation"
+  },
+  "ceiling": {
+   "category": "painting_renovation"
+  },
+  "floor": {
+   "category": "painting_renovation"
+  },
+  "tiles": {
+   "category": "painting_renovation"
+  },
+  "wallpaper": {
+   "category": "painting_renovation"
+  },
+  "ac_indoor_unit": {
+   "category": "hvac_services"
+  },
+  "ac_outdoor_unit": {
+   "category": "hvac_services"
+  },
+  "radiator": {
+   "category": "hvac_services"
+  },
+  "boiler": {
+   "category": "hvac_services"
+  },
+  "vent_fan": {
+   "category": "hvac_services"
+  }
+ },
+ "defects": {
+  "water_leak_stain": {
+   "problem_hints": [
+    "faucet_leak",
+    "pipe_leak",
+    "ac_water_leak",
+    "fridge_leaking_noisy",
+    "ceiling_work",
+    "washer_not_draining"
+   ]
+  },
+  "crack": {
+   "problem_hints": [
+    "phone_cracked_screen",
+    "ceiling_work",
+    "plaster_putty_job",
+    "tiling_job"
+   ]
+  },
+  "rust_corrosion": {
+   "problem_hints": [
+    "pipe_leak",
+    "sink_installation",
+    "car_electrical_fault"
+   ]
+  },
+  "burn_mark": {
+   "problem_hints": [
+    "socket_not_working",
+    "burning_smell_short_circuit",
+    "breaker_trips"
+   ]
+  },
+  "mold_damp": {
+   "problem_hints": [
+    "ceiling_work",
+    "wall_painting_job",
+    "pipe_leak"
+   ]
+  },
+  "peeling_paint": {
+   "problem_hints": [
+    "wall_painting_job",
+    "plaster_putty_job",
+    "ceiling_work"
+   ]
+  },
+  "cracked_screen": {
+   "problem_hints": [
+    "phone_cracked_screen",
+    "console_tablet_issue"
+   ]
+  },
+  "stuck_key_in_lock": {
+   "problem_hints": [
+    "jammed_lock",
+    "locked_out"
+   ]
+  }
+ }
+}
