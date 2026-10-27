@@ -352,30 +352,19 @@ To keep a test sentence permanently, add it with its correct label to `ml/data/g
 5. **Better text model**: multilingual transformer embeddings, compared fairly against the TF-IDF baseline.
 6. **Production**: Docker, monitoring of model confidence and drift, human review queue for abstentions.
 
+
 ## 15. Glossary
 
-| Term | Meaning in Tapdix |
+| Term | Description |
 |---|---|
-| **Two-sided marketplace** | A platform with two user groups that need each other: customers and masters |
-| **Web platform / web application** | The whole product delivered in the browser (front end + API + database); a *dashboard* is just one screen inside it |
-| **AI / ML / DL** | AI = any "intelligent" software; ML = learns from examples; DL = ML with deep neural networks (YOLO, transformers) |
-| **NLP** | Natural language processing: software that works with human language (here Azerbaijani/Russian listings) |
-| **Computer vision** | Software that works with images (here: what is in the photo and what is broken) |
-| **YOLO** | "You Only Look Once": a fast deep-learning object detector |
-| **Synthetic data** | Artificially generated data, used to build and test a pipeline; it does not prove real-world accuracy |
-| **Baseline** | The simple reference a new model must beat (here: the legacy rule-based scorer) |
-| **Ground truth / label** | The known-correct answer for an example |
-| **Train / test split** | Learn on one part of the data, measure on a part the model has not seen |
-| **Generalisation / overfitting** | Working on new inputs vs memorising training examples |
-| **Confidence / abstention** | How sure the model is; abstaining = declining to answer and asking a human |
-| **Risk-coverage curve** | Trade-off between how many cases are auto-handled and how accurate those are |
-| **Human-in-the-loop** | A person confirms or answers when the system is unsure |
-| **Parity testing** | Proving a rewrite behaves identically to the original on many inputs |
-| **Taxonomy** | The controlled vocabulary of categories, problem types and skills |
-| **Idempotent migration** | A database script that is safe to run more than once |
-| **Cold start** | Not enough data yet (no reviews, no outcomes) to learn from |
-| **Data leakage** | Test information accidentally available during training, inflating results |
-| **MVP / prototype / PoC** | Smallest usable product / working demo / proof the idea is feasible; Tapdix is currently a prototype |
+| **NLP** | Processes Azerbaijani and Russian listings to identify repair problems. |
+| **Computer Vision (YOLO)** | Planned image-based detection of objects and defects. |
+| **Taxonomy** | Defines the 8 service categories, 56 problem types, and 54 skills. |
+| **Synthetic Data** | Artificially generated data used for development and initial evaluation. |
+| **Baseline** | Rule-based scoring system used as a reference for future ML models. |
+| **Confidence & Abstention** | Determines whether to accept a prediction or request clarification. |
+| **Text–Image Fusion** | Combines text and photo predictions to improve problem identification. |
+| **Master Matching** | Ranks service providers based on skills, location, ratings, and availability. |
 
 ## 16. Security and privacy of this repository
 * **No secrets are committed.** Configuration goes in `.env` (git-ignored); `.env.example` lists the variable names only.
