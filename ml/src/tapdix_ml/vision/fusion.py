@@ -193,7 +193,10 @@ def fuse(
         )
         return FusionDecision(vision.category, hint, "photo", round(vision.category_conf, 3), why)
 
-    alts = [c for c, p in (text.category_probs.items() if text else []) if p >= 0.15][:2]
+    # Offer a two-trade question only when the runner-up is a substantial candidate (>= 0.25). For a text with no
+    # information the guesses are noise (measured: runner-up <= 0.20 on every vague gold message).
+    ranked = list(text.category_probs.items()) if text else []
+    alts = [c for c, _ in ranked[:2]] if len(ranked) >= 2 and ranked[1][1] >= 0.25 else []
     if len(alts) == 2:
         question = f"Bu problem {_name_az(alts[0])} yoxsa {_name_az(alts[1])} ilə bağlıdır?"
     elif has_photo:

@@ -90,3 +90,22 @@ def test_hints_from_other_categories_are_dropped_and_ambiguity_lowers_confidence
     mixed = vision_from_detections([Detection("ac_indoor_unit", 0.9), Detection("phone", 0.85)])
     assert mixed.category_conf < clear.category_conf
     assert vision_from_detections([Detection("water_leak_stain", 0.9)]).category is None
+
+
+def test_vague_text_gets_the_generic_question_not_a_silly_two_trade_one() -> None:
+    noisy = text(
+        cp=0.25,
+        pp=0.05,
+        others={"painting_renovation": 0.20, "hvac_services": 0.15, "locksmith": 0.12},
+    )
+    d = fuse(noisy, None)
+    assert (
+        d.source == "ask_user"
+        and "yoxsa" not in d.clarification_az
+        and "ətraflı" in d.clarification_az
+    )
+
+
+def test_two_plausible_trades_get_a_two_trade_question() -> None:
+    d = fuse(text(cp=0.28, pp=0.1, others={"hvac_services": 0.27, "electrical": 0.05}), None)
+    assert d.source == "ask_user" and "Santexnika yoxsa" in d.clarification_az
