@@ -6,6 +6,6 @@ import path from 'node:path'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: { alias: { '@': path.resolve(import.meta.dirname, './src') } },
-  server: { port: 5173, proxy: { '/api': 'http://localhost:8000' } },
+  server: { port: 5173, proxy: { '/api': 'http://127.0.0.1:8000' } },
   test: { environment: 'jsdom', setupFiles: './src/test/setup.ts', globals: true },
 })
